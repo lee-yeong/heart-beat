@@ -110,7 +110,7 @@ export default function NotificationsPage() {
             아직 받은 수강신청이 없어요.
           </p>
         ) : (
-          <div className="mt-4 grid gap-5 lg:grid-cols-2">
+          <div className="mt-4 grid gap-5">
             {pending.map((r) => (
               <article key={r.id} className="animate-pop-in rounded-[22px] border-2 border-primary-soft bg-white p-5 shadow-[0_8px_30px_rgba(255,107,154,0.12)]">
                 <p className="text-[15px]">

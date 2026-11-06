@@ -65,7 +65,7 @@ function BadgeDot({ n, className }: { n: number; className: string }) {
  *       + 가운데 본문 + 오른쪽 알림 패널(1280px 이상) + 오른쪽 아래 작은 메시지 창
  * - 모바일: 하단 탭바 (bare 모드에서는 숨김 — 채팅 화면용)
  */
-export function AppShell({ children, wide = false, bare = false }: { children: ReactNode; wide?: boolean; bare?: boolean }) {
+export function AppShell({ children, bare = false }: { children: ReactNode; wide?: boolean; bare?: boolean }) {
   const path = usePathname();
   const [hasSession, setHasSession] = useState(false);
   useEffect(() => setHasSession(!!loadSession()), []);
@@ -140,13 +140,14 @@ export function AppShell({ children, wide = false, bare = false }: { children: R
                 </span>
               </Link>
             </header>
-            <main className={`mx-auto w-full flex-1 px-5 pb-24 pt-4 md:px-10 md:pb-28 md:pt-12 ${wide ? "max-w-6xl" : "max-w-4xl"}`}>{children}</main>
+            {/* PC: 가운데 좁은 피드 + 바로 옆 활동 열 (인스타그램 PC처럼 양쪽에 여백) */}
+            <div className="flex flex-1 justify-center gap-14 px-5 md:px-8">
+              <main className="w-full min-w-0 max-w-[640px] flex-1 pb-24 pt-4 md:pb-28 md:pt-10">{children}</main>
+              {showPanel && <NotificationsPanel onOpenRoom={openRoom} />}
+            </div>
           </>
         )}
       </div>
-
-      {/* PC 오른쪽 알림 패널 */}
-      {showPanel && <NotificationsPanel onOpenRoom={openRoom} />}
 
       {/* PC 오른쪽 아래 작은 메시지 창 */}
       {showMessenger && (

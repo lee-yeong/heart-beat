@@ -149,7 +149,7 @@ export default function RecommendationsPage() {
             <p className="mt-1 text-sm text-ink-soft">새 학생이 등록되면 다시 추천받아 보세요.</p>
           </div>
         ) : (
-          <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+          <div className="grid gap-6">
             {data?.items.map((item) => (
               <RecommendationCard
                 key={item.candidate.id}

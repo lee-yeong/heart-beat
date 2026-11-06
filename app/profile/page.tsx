@@ -20,7 +20,7 @@ function ProfileContent() {
       <p className="text-sm font-semibold text-primary">{isNew ? "학생증 발급 완료 ♥" : "내 학생증"}</p>
       <h1 className="mt-1 text-2xl font-bold md:text-3xl">{me.nickname}님의 학생증</h1>
 
-      <div className="mt-6 grid gap-6 md:grid-cols-[minmax(0,420px)_1fr] md:items-start">
+      <div className="mt-6 grid gap-6">
         <div className="animate-pop-in">
           <ProfileCard profile={me} />
         </div>
