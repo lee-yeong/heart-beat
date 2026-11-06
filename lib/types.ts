@@ -82,6 +82,8 @@ export type RecommendationsResponse = {
   items: RecommendationItem[];
   /** 승인 대기 중인 내 보낸 요청 (있으면 다른 후보 신청 불가) */
   pending_request: { id: string; receiver_id: string } | null;
+  demo_mode?: boolean;
+  added?: number;
 };
 
 export type RequestView = {
@@ -90,6 +92,7 @@ export type RequestView = {
   created_at: string;
   responded_at: string | null;
   analysis: MatchAnalysis | null;
+  message: string | null;
   other: PublicProfile;
   room_id: string | null;
 };
@@ -101,6 +104,8 @@ export type NotificationsResponse = {
   pending_received: number;
   unseen_results: number;
   unread_rooms: number;
+  /** 수강 철회된 강의실 → "매칭을 다시 시작할까요?" */
+  rematch: { room_id: string; other_nickname: string; ended_by_me: boolean; ended_at: string }[];
 };
 
 export type RoomSummary = {
@@ -108,17 +113,42 @@ export type RoomSummary = {
   other: PublicProfile;
   last_message: { content: string; created_at: string; type: "user" | "ai" } | null;
   unread: number;
+  ended: boolean;
   created_at: string;
+};
+
+export type SyllabusContent = {
+  course_id: string;
+  subtitle: string;
+  reason: string;
+  weeks: { week: number; topic: string }[];
+  midterm: string;
+  final_exam: string;
+  ice_breakers: string[];
+};
+
+/** 화면용 강의계획서: course는 courses.json 원본, 나머지는 AI 생성 */
+export type SyllabusView = SyllabusContent & {
+  source: AiSource;
+  course: Course;
+  semester: string;
 };
 
 export type RoomDetail = {
   id: string;
   other: PublicProfile;
   me_id: string;
-  course_id: string | null;
-  syllabus: unknown;
+  syllabus: SyllabusView | null;
   syllabus_status: "pending" | "ready" | "failed";
   blocked: boolean;
+  ended: boolean;
+  /** trial: 3일 수강 기간 / deciding: 계속 수강 선택 / confirmed: 연락처 교환 가능 / ended: 수강 철회 */
+  phase: "trial" | "deciding" | "confirmed" | "ended";
+  trial_ends_at: string;
+  my_continue: boolean;
+  other_continue: boolean;
+  intro_message: { from_me: boolean; text: string } | null;
+  demo_mode: boolean;
   created_at: string;
 };
 
@@ -131,6 +161,13 @@ export type ChatMessage = {
   client_message_id: string | null;
 };
 
-export type MessagesResponse = { messages: ChatMessage[]; other_last_read_at: string; blocked: boolean };
+export type MessagesResponse = {
+  messages: ChatMessage[];
+  other_last_read_at: string;
+  blocked: boolean;
+  phase: RoomDetail["phase"];
+  my_continue: boolean;
+  other_continue: boolean;
+};
 
 export type Session = { userId: string; token: string };

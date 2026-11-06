@@ -17,6 +17,8 @@ export type ProfileRow = {
   ai_analysis: AcademicAnalysis | null;
   ai_analysis_source: AiSource | null;
   notifications_seen_at: string;
+  match_preference: string | null;
+  rematch_decided_at: string;
   is_seed: boolean;
   created_at: string;
 };

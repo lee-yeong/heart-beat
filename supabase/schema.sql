@@ -94,6 +94,16 @@ create table if not exists blocks (
   constraint one_block_per_pair unique (blocker_id, blocked_id)
 );
 
+-- M4 추가 컬럼 (supabase/migration_m4.sql과 같음)
+alter table requests add column if not exists message text check (message is null or char_length(message) <= 100);
+alter table rooms add column if not exists ended_at timestamptz;
+alter table rooms add column if not exists ended_by uuid references profiles(id) on delete set null;
+alter table rooms add column if not exists trial_ends_at timestamptz not null default (now() + interval '3 days');
+alter table rooms add column if not exists user_a_continue_at timestamptz;
+alter table rooms add column if not exists user_b_continue_at timestamptz;
+alter table profiles add column if not exists match_preference text check (match_preference is null or char_length(match_preference) <= 300);
+alter table profiles add column if not exists rematch_decided_at timestamptz not null default now();
+
 -- RLS: 익명·일반 클라이언트의 직접 접근을 모두 막는다.
 -- 서버(service_role)는 RLS를 우회하므로 모든 권한 검사는 Next.js API에서 한다.
 alter table profiles enable row level security;

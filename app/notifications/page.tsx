@@ -7,7 +7,7 @@ import { AppShell } from "@/components/AppShell";
 import { ProfileCard } from "@/components/ProfileCard";
 import { Badge } from "@/components/ui";
 import { api } from "@/lib/api-client";
-import type { RequestView, RequestsResponse } from "@/lib/types";
+import type { NotificationsResponse, RequestView, RequestsResponse } from "@/lib/types";
 import { useMe } from "@/lib/use-me";
 import { usePoll } from "@/lib/use-poll";
 
@@ -26,8 +26,28 @@ export default function NotificationsPage() {
   const [busy, setBusy] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  const load = useCallback(async () => setData(await api<RequestsResponse>("/api/requests")), []);
+  const [rematch, setRematch] = useState<NotificationsResponse["rematch"]>([]);
+  const load = useCallback(async () => {
+    const [r, n] = await Promise.all([api<RequestsResponse>("/api/requests"), api<NotificationsResponse>("/api/notifications")]);
+    setData(r);
+    setRematch(n.rematch);
+  }, []);
   usePoll(load, 5000, !!me);
+
+  const startRematch = async () => {
+    setBusy("rematch");
+    try {
+      await api("/api/recommendations", { method: "POST", json: { rematch: true } });
+      router.push("/recommendations");
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "다시 추천하지 못했어요.");
+      setBusy(null);
+    }
+  };
+  const laterRematch = async () => {
+    await api("/api/notifications/read", { method: "POST", json: { rematch: "dismiss" } }).catch(() => {});
+    setRematch([]);
+  };
 
   // 알림 페이지를 열면 내 요청 결과를 확인한 것으로 기록
   useEffect(() => {
@@ -59,6 +79,25 @@ export default function NotificationsPage() {
       <h1 className="text-2xl font-bold md:text-3xl">알림</h1>
       {error && <p className="mt-4 rounded-xl bg-red-50 px-4 py-3 text-sm text-red-600">{error}</p>}
 
+      {rematch.length > 0 && (
+        <section className="animate-pop-in mt-6 rounded-[22px] border-2 border-primary bg-white p-5 shadow-[0_8px_30px_rgba(255,107,154,0.15)]">
+          <p className="text-xs font-bold text-primary">✨ AI 조교</p>
+          <p className="mt-1 text-lg font-bold">매칭을 다시 시작할까요?</p>
+          <p className="mt-1 text-sm text-ink-soft">
+            {rematch[0].ended_by_me ? `${rematch[0].other_nickname}님과의 수강을 철회했어요.` : `${rematch[0].other_nickname}님과의 강의가 수강 철회로 끝났어요.`}{" "}
+            괜찮아요! 끝난 상대는 다시 추천하지 않고, 새로운 다른 과 학생을 골라 드릴게요.
+          </p>
+          <div className="mt-4 grid grid-cols-[1fr_2fr] gap-3">
+            <button type="button" onClick={laterRematch} className="h-12 rounded-2xl border-2 border-line font-semibold text-ink-soft">
+              나중에
+            </button>
+            <button type="button" disabled={busy !== null} onClick={startRematch} className="h-12 rounded-2xl bg-primary font-bold text-white disabled:opacity-50">
+              {busy === "rematch" ? "AI가 고르는 중…" : "네, 다시 매칭해 주세요 ♥"}
+            </button>
+          </div>
+        </section>
+      )}
+
       <section className="mt-6">
         <h2 className="flex items-center gap-2 text-lg font-bold">
           수강 승인 요청
@@ -78,6 +117,9 @@ export default function NotificationsPage() {
                   <b className="text-primary-strong">{r.other.nickname}</b>님이 수강신청을 보냈어요 ♥
                   <span className="ml-2 text-xs text-ink-soft">{timeAgo(r.created_at)}</span>
                 </p>
+                {r.message && (
+                  <p className="mt-3 rounded-2xl rounded-tl-md bg-primary px-4 py-2.5 text-[15px] text-white">💌 {r.message}</p>
+                )}
                 <div className="mt-4">
                   <ProfileCard profile={r.other} highlight={r.analysis?.evidence_keywords ?? []} compact />
                 </div>

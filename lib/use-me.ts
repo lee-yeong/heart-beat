@@ -5,10 +5,13 @@ import { useRouter } from "next/navigation";
 import { api, loadSession } from "./api-client";
 import type { PublicProfile } from "./types";
 
+/** 본인 프로필 (+ 본인만 보는 AI 상담 선호) */
+export type Me = PublicProfile & { match_preference: string | null };
+
 /** 로그인한 본인 프로필. 세션이 없거나 만료되면 학적 등록으로 보낸다. */
 export function useMe() {
   const router = useRouter();
-  const [me, setMe] = useState<PublicProfile | null>(null);
+  const [me, setMe] = useState<Me | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -16,7 +19,7 @@ export function useMe() {
       router.replace("/register");
       return;
     }
-    api<{ profile: PublicProfile }>("/api/profiles/me")
+    api<{ profile: Me }>("/api/profiles/me")
       .then((r) => setMe(r.profile))
       .catch((e) => {
         if (e?.status === 401) router.replace("/register");
@@ -24,5 +27,5 @@ export function useMe() {
       });
   }, [router]);
 
-  return { me, error };
+  return { me, setMe, error };
 }

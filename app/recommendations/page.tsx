@@ -1,8 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { ApplySheet } from "@/components/ApplySheet";
 import { AppShell } from "@/components/AppShell";
+import { ConsultPanel } from "@/components/ConsultPanel";
+import { DemoQR } from "@/components/DemoQR";
 import { RecommendationCard } from "@/components/RecommendationCard";
 import { StepLoader } from "@/components/StepLoader";
 import { api } from "@/lib/api-client";
@@ -13,16 +16,23 @@ import { usePoll } from "@/lib/use-poll";
 const STEPS = ["전공 분석 중", "성향 비교 중", "추천 근거 작성 중"];
 
 export default function RecommendationsPage() {
-  const { me } = useMe();
+  const { me, setMe } = useMe();
   const [data, setData] = useState<RecommendationsResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [notice, setNotice] = useState<string | null>(null);
+  const [applying, setApplying] = useState<RecommendationItem | null>(null);
+  const [consulting, setConsulting] = useState(false);
+  const refillTried = useRef(false);
 
-  const generate = useCallback(async (refresh = false) => {
+  const post = useCallback(async (json: Record<string, unknown>, msg?: string) => {
     setLoading(true);
     setError(null);
     try {
-      setData(await api<RecommendationsResponse>("/api/recommendations", { method: "POST", json: { refresh } }));
+      const r = await api<RecommendationsResponse>("/api/recommendations", { method: "POST", json });
+      setData(r);
+      if (msg) setNotice(msg);
+      return r;
     } catch (e) {
       setError(e instanceof Error ? e.message : "추천을 불러오지 못했어요.");
     } finally {
@@ -33,9 +43,12 @@ export default function RecommendationsPage() {
   useEffect(() => {
     if (!me) return;
     api<RecommendationsResponse>("/api/recommendations")
-      .then((r) => (r.generated ? setData(r) : generate()))
+      .then((r) => {
+        if (r.generated) setData(r);
+        else post({});
+      })
       .catch((e) => setError(e?.message ?? "추천을 불러오지 못했어요."));
-  }, [me, generate]);
+  }, [me, post]);
 
   // 승인 대기 중이면 5초마다 상대의 응답(승인·반려)을 확인
   usePoll(
@@ -47,19 +60,16 @@ export default function RecommendationsPage() {
     !!data?.pending_request && !loading,
   );
 
-  const [sending, setSending] = useState<string | null>(null);
-  const apply = async (item: RecommendationItem) => {
-    setSending(item.candidate.id);
-    setError(null);
-    try {
-      await api("/api/requests", { method: "POST", json: { receiver_id: item.candidate.id } });
-      setData(await api<RecommendationsResponse>("/api/recommendations"));
-    } catch (e) {
-      setError(e instanceof Error ? e.message : "수강신청에 실패했어요.");
-    } finally {
-      setSending(null);
-    }
-  };
+  // 반려 등으로 카드가 3장보다 적어지면 AI가 빈자리를 새로 채운다 (페이지당 1번)
+  useEffect(() => {
+    if (!data?.generated || loading || data.pending_request || refillTried.current) return;
+    const open = data.items.filter((i) => i.request?.status !== "accepted").length;
+    if (open >= 3) return;
+    refillTried.current = true;
+    post({ refill: true }).then((r) => {
+      if (r?.added) setNotice(`반려된 자리에 AI가 새로운 학생 ${r.added}명을 추천했어요 ♥`);
+    });
+  }, [data, loading, post]);
 
   const actionFor = (item: RecommendationItem) => {
     const base = "flex h-12 w-full items-center justify-center rounded-2xl text-base font-bold transition";
@@ -80,11 +90,11 @@ export default function RecommendationsPage() {
     return (
       <button
         type="button"
-        disabled={blockedByPending || sending !== null}
-        onClick={() => apply(item)}
+        disabled={blockedByPending}
+        onClick={() => setApplying(item)}
         className={`${base} bg-primary text-white shadow-[0_6px_18px_rgba(255,107,154,0.3)] hover:bg-primary-strong disabled:bg-primary-soft disabled:shadow-none`}
       >
-        {sending === item.candidate.id ? "신청 중…" : blockedByPending ? "다른 수강신청 승인 대기 중" : "수강신청"}
+        {blockedByPending ? "다른 수강신청 승인 대기 중" : "수강신청"}
       </button>
     );
   };
@@ -100,27 +110,32 @@ export default function RecommendationsPage() {
           </p>
         </div>
         {data?.generated && !loading && (
-          <button
-            type="button"
-            onClick={() => generate(true)}
-            className="rounded-full border border-primary-soft px-4 py-2 text-sm font-medium text-primary-strong hover:bg-surface"
-          >
-            ↻ 다시 추천받기
-          </button>
+          <div className="flex gap-2">
+            <button type="button" onClick={() => setConsulting(true)} className="rounded-full bg-primary px-4 py-2 text-sm font-bold text-white shadow-sm hover:bg-primary-strong">
+              ✨ AI 조교와 상담하기
+            </button>
+            <button type="button" onClick={() => post({ refresh: true })} className="rounded-full border border-primary-soft px-4 py-2 text-sm font-medium text-primary-strong hover:bg-surface">
+              ↻ 다시 추천
+            </button>
+          </div>
         )}
       </header>
 
+      {me?.match_preference && !loading && (
+        <p className="mt-4 rounded-xl bg-surface px-4 py-2.5 text-sm">
+          <b className="text-primary-strong">상담 반영 중 ·</b> {me.match_preference}
+        </p>
+      )}
+      {notice && !loading && <p className="mt-4 rounded-xl border border-primary-soft bg-white px-4 py-3 text-sm text-primary-strong">♥ {notice}</p>}
       {data?.pending_request && !loading && (
-        <p className="mt-5 rounded-xl border border-primary-soft bg-surface px-4 py-3 text-sm text-primary-strong">
+        <p className="mt-4 rounded-xl border border-primary-soft bg-surface px-4 py-3 text-sm text-primary-strong">
           ♥ 수강신청 승인 대기 중이에요. 상대가 승인하거나 반려하면 다른 학생에게 신청할 수 있어요.
         </p>
       )}
       {data?.source === "fallback" && !loading && (
-        <p className="mt-5 rounded-xl bg-gray-50 px-4 py-3 text-sm text-ink-soft">
-          AI 분석을 불러오지 못해 기본 추천을 표시합니다.
-        </p>
+        <p className="mt-4 rounded-xl bg-gray-50 px-4 py-3 text-sm text-ink-soft">AI 분석을 불러오지 못해 기본 추천을 표시합니다.</p>
       )}
-      {error && <p className="mt-5 rounded-xl bg-red-50 px-4 py-3 text-sm text-red-600">{error}</p>}
+      {error && <p className="mt-4 rounded-xl bg-red-50 px-4 py-3 text-sm text-red-600">{error}</p>}
 
       <div className="mt-6">
         {loading || (!data && !error) ? (
@@ -136,11 +151,44 @@ export default function RecommendationsPage() {
         ) : (
           <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
             {data?.items.map((item) => (
-              <RecommendationCard key={item.candidate.id} item={item} action={actionFor(item)} />
+              <RecommendationCard
+                key={item.candidate.id}
+                item={item}
+                action={
+                  <>
+                    {actionFor(item)}
+                    {data.demo_mode && item.candidate.is_seed && <DemoQR profileId={item.candidate.id} nickname={item.candidate.nickname} />}
+                  </>
+                }
+              />
             ))}
           </div>
         )}
       </div>
+
+      {applying && (
+        <ApplySheet
+          item={applying}
+          onClose={() => setApplying(null)}
+          onSent={async () => {
+            setApplying(null);
+            setData(await api<RecommendationsResponse>("/api/recommendations"));
+            setNotice("수강신청을 보냈어요! 상대가 승인하면 강의실이 열려요.");
+          }}
+        />
+      )}
+      {consulting && data && (
+        <ConsultPanel
+          items={data.items}
+          onClose={() => setConsulting(false)}
+          onRematch={async (preference) => {
+            setConsulting(false);
+            refillTried.current = true;
+            if (me) setMe({ ...me, match_preference: preference });
+            await post({ refresh: true, preference }, "상담 내용을 반영해 AI가 새로 추천했어요 ♥");
+          }}
+        />
+      )}
     </AppShell>
   );
 }

@@ -30,6 +30,24 @@ export const AcademicAnalysisSchema = z.object({
   conversation_style: z.string(),
 });
 
+export const SyllabusSchema = z.object({
+  course_id: z.string(),
+  subtitle: z.string(),
+  reason: z.string(),
+  weeks: z.array(z.object({ week: z.number(), topic: z.string() })),
+  midterm: z.string(),
+  final_exam: z.string(),
+  ice_breakers: z.array(z.string()),
+});
+
+export const QuestionsSchema = z.object({ questions: z.array(z.string()) });
+
+export const ConsultSchema = z.object({
+  reply: z.string(),
+  preference_summary: z.string(),
+  ready: z.boolean(),
+});
+
 export const MatchSchema = z.object({
   recommendations: z.array(
     z.object({

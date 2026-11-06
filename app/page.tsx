@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import { Logo } from "@/components/Logo";
 import { loadSession } from "@/lib/api-client";
 
 const FEATURES = [
@@ -31,8 +32,8 @@ export default function Landing() {
           <span className="inline-block rounded-full bg-white px-3 py-1 text-xs font-semibold text-primary shadow-sm">
             2026학년도 2학기 개설 ♥
           </span>
-          <h1 className="mt-5 text-[40px] font-extrabold leading-tight tracking-tight md:text-6xl">
-            교양<span className="text-primary">필수</span>
+          <h1 className="mt-5">
+            <Logo size="lg" />
           </h1>
           <p className="mt-3 text-xl font-semibold leading-snug md:mt-5 md:text-3xl">
             우리 사이엔

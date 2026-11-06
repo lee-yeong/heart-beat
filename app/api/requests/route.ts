@@ -2,7 +2,7 @@ import { requireUser } from "@/lib/server/auth";
 import { db } from "@/lib/server/db";
 import { handler, HttpError } from "@/lib/server/http";
 import { toPublic, type ProfileRow } from "@/lib/server/profiles";
-import { isBlocked, type RequestRow } from "@/lib/server/relations";
+import { containsContact, isBlocked, type RequestRow } from "@/lib/server/relations";
 import type { MatchAnalysis, RequestView, RequestsResponse } from "@/lib/types";
 
 export const runtime = "nodejs";
@@ -13,6 +13,8 @@ export const POST = handler(async (req: Request) => {
   const body = await req.json().catch(() => ({}));
   const receiverId = String(body?.receiver_id ?? "");
   if (!/^[0-9a-f-]{36}$/i.test(receiverId) || receiverId === me.id) throw new HttpError(400, "잘못된 요청이에요.");
+  const message = typeof body?.message === "string" ? body.message.trim().slice(0, 100) || null : null;
+  if (message && containsContact(message)) throw new HttpError(400, "한마디에는 연락처나 SNS 아이디를 넣을 수 없어요.", "contact_locked");
 
   const { data: receiver } = await db().from("profiles").select("id, department_id").eq("id", receiverId).maybeSingle();
   if (!receiver) throw new HttpError(404, "상대를 찾을 수 없어요.");
@@ -32,7 +34,7 @@ export const POST = handler(async (req: Request) => {
 
   const { data, error } = await db()
     .from("requests")
-    .insert({ sender_id: me.id, receiver_id: receiverId, analysis: rec?.analysis ?? null })
+    .insert({ sender_id: me.id, receiver_id: receiverId, analysis: rec?.analysis ?? null, message })
     .select("*")
     .single<RequestRow>();
   if (error) {
@@ -62,6 +64,7 @@ export const GET = handler(async (req: Request): Promise<RequestsResponse> => {
     created_at: r.created_at,
     responded_at: r.responded_at,
     analysis: (r.analysis as MatchAnalysis | null) ?? null,
+    message: r.message ?? null,
     other: toPublic(other),
     room_id: (r.rooms as { id: string }[] | { id: string } | null) ? ([r.rooms].flat()[0]?.id ?? null) : null,
   });

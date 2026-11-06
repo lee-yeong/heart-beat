@@ -39,6 +39,7 @@ export default function RoomsPage() {
                   <div className="flex items-center gap-2">
                     <p className="truncate font-bold">{r.other.nickname}</p>
                     <span className="truncate text-xs text-ink-soft">{r.other.department_name}</span>
+                    {r.ended && <span className="shrink-0 rounded-full bg-gray-100 px-2 py-0.5 text-[10px] text-ink-soft">수강 철회</span>}
                   </div>
                   <p className={`mt-0.5 truncate text-sm ${r.unread ? "font-semibold text-ink" : "text-ink-soft"}`}>
                     {r.last_message ? (r.last_message.type === "ai" ? `AI 조교 · ${r.last_message.content}` : r.last_message.content) : "강의실이 열렸어요"}

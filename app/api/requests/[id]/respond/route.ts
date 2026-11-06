@@ -5,8 +5,8 @@ import type { RequestRow } from "@/lib/server/relations";
 
 export const runtime = "nodejs";
 
-const FIRST_MESSAGE =
-  "안녕하세요, AI 조교예요 ♥ 수강 승인이 완료되어 두 분의 강의실이 열렸어요. 위의 '우리의 강의계획서'를 함께 보면서 첫 인사를 나눠 보세요!";
+const NOTICE =
+  "📢 AI 조교 공지\n수강 승인이 완료되어 두 분의 강의실이 열렸어요 ♥\n\n앞으로 3일은 '수강 기간'이에요. 이 기간에는 실명, 나이, 전화번호, 인스타·카톡 아이디를 공개할 수 없어요. 3일 뒤 두 분 모두 '계속 수강하기'를 누르면 그때 연락처를 교환할 수 있어요.\n\n위의 '우리의 강의계획서'를 보면서 편하게 첫 인사를 나눠 보세요!";
 
 /** 수신자만 승인 또는 반려. 승인 시 강의실을 만든다 (강의계획서는 강의실에서 따로 생성). */
 export const POST = handler(async (req: Request, ctx: { params: Promise<{ id: string }> }) => {
@@ -50,6 +50,9 @@ export const POST = handler(async (req: Request, ctx: { params: Promise<{ id: st
     }
     throw roomErr;
   }
-  await db().from("messages").insert({ room_id: room.id, sender_id: null, type: "ai", content: FIRST_MESSAGE, client_message_id: "ai-welcome" });
+  // 1) AI 조교 공지(3일 수강 기간 규칙) → 2) 신청할 때 보낸 한마디를 첫 메시지로
+  await db().from("messages").insert({ room_id: room.id, sender_id: null, type: "ai", content: NOTICE, client_message_id: "ai-notice" });
+  if (updated.message)
+    await db().from("messages").insert({ room_id: room.id, sender_id: updated.sender_id, type: "user", content: updated.message, client_message_id: "intro" });
   return { status: "accepted", room_id: room.id };
 });

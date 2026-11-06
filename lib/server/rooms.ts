@@ -38,6 +38,7 @@ export async function listRooms(meId: string): Promise<RoomSummary[]> {
         other: toPublic(other),
         last_message: last.data?.[0] ?? null,
         unread: unread.count ?? 0,
+        ended: !!room.ended_at,
         created_at: room.created_at,
       } satisfies RoomSummary;
     }),
