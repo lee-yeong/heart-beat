@@ -1,0 +1,20 @@
+{
+  "note": "시연용 가상 프로필. 실존 인물과 무관합니다.",
+  "profiles": [
+    { "nickname": "코딩하는고양이", "year": 3, "department_name": "컴퓨터공학부", "mbti": "INTP", "blood_type": "A", "traits": ["차분함", "호기심 많음", "경청을 잘함"], "music_genres": ["인디", "재즈"], "favorite_music": "검정치마" },
+    { "nickname": "송도러너", "year": 2, "department_name": "운동건강학부", "mbti": "ESFP", "blood_type": "O", "traits": ["활발함", "유머러스함", "즉흥적", "다정함"], "music_genres": ["K-POP", "EDM"], "favorite_music": null },
+    { "nickname": "필름카메라", "year": 4, "department_name": "디자인학부", "mbti": "ISFP", "blood_type": "B", "traits": ["섬세함", "낯가림", "호기심 많음"], "music_genres": ["인디", "J-POP", "R&B"], "favorite_music": "요루시카" },
+    { "nickname": "데이터산책", "year": 3, "department_name": "데이터과학과", "mbti": "ISTJ", "blood_type": "A", "traits": ["계획적", "성실함", "솔직함"], "music_genres": ["팝", "클래식"], "favorite_music": null },
+    { "nickname": "문장수집가", "year": 2, "department_name": "국어국문학과", "mbti": "INFJ", "blood_type": "AB", "traits": ["섬세함", "경청을 잘함", "차분함", "다정함"], "music_genres": ["발라드", "인디"], "favorite_music": "아이유 - 밤편지" },
+    { "nickname": "바다보는사람", "year": 3, "department_name": "해양학과", "mbti": "ENFP", "blood_type": "O", "traits": ["호기심 많음", "즉흥적", "활발함"], "music_genres": ["록·밴드", "팝"], "favorite_music": "데이식스" },
+    { "nickname": "도시탐험가", "year": 4, "department_name": "도시공학과", "mbti": "ENTJ", "blood_type": "B", "traits": ["계획적", "솔직함", "성실함"], "music_genres": ["힙합", "R&B"], "favorite_music": null },
+    { "nickname": "무대뒤편", "year": 2, "department_name": "공연예술학과", "mbti": "ENFJ", "blood_type": "A", "traits": ["활발함", "다정함", "유머러스함"], "music_genres": ["K-POP", "발라드", "재즈"], "favorite_music": "뮤지컬 넘버" },
+    { "nickname": "역사덕후", "year": 3, "department_name": "역사교육과", "mbti": "ISTP", "blood_type": "비공개", "traits": ["호기심 많음", "차분함", "솔직함"], "music_genres": ["클래식", "록·밴드"], "favorite_music": null },
+    { "nickname": "물류마스터", "year": 3, "department_name": "스마트물류공학전공", "mbti": "ESTJ", "blood_type": "O", "traits": ["계획적", "성실함", "활발함"], "music_genres": ["K-POP", "힙합"], "favorite_music": null },
+    { "nickname": "실험실의밤", "year": 4, "department_name": "생명공학부(생명공학전공)", "mbti": "INTJ", "blood_type": "A", "traits": ["성실함", "섬세함", "낯가림"], "music_genres": ["재즈", "클래식"], "favorite_music": "쳇 베이커" },
+    { "nickname": "봉쥬르송도", "year": 2, "department_name": "불어불문학과", "mbti": "모름", "blood_type": "AB", "traits": ["즉흥적", "유머러스함", "솔직함", "호기심 많음"], "music_genres": ["팝", "인디"], "favorite_music": null },
+    { "nickname": "경영하는곰", "year": 3, "department_name": "경영학부", "mbti": "ESFJ", "blood_type": "B", "traits": ["다정함", "경청을 잘함", "계획적"], "music_genres": ["발라드", "K-POP"], "favorite_music": "성시경" },
+    { "nickname": "미디어키드", "year": 2, "department_name": "미디어커뮤니케이션학과", "mbti": "ENTP", "blood_type": "O", "traits": ["유머러스함", "호기심 많음", "즉흥적"], "music_genres": ["힙합", "EDM", "팝"], "favorite_music": null },
+    { "nickname": "전기는흐른다", "year": 4, "department_name": "전기공학과", "mbti": "ISFJ", "blood_type": "A", "traits": ["성실함", "차분함", "다정함"], "music_genres": ["음악 잘 안 들음"], "favorite_music": null }
+  ]
+}

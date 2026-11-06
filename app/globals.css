@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* 교양필수 디자인 토큰: 흰색 바탕 + 핑크 포인트 (캠퍼스 로맨스) */
+@theme {
+  --color-primary: #ff6b9a;
+  --color-primary-strong: #f0477e;
+  --color-primary-soft: #ffd6e4;
+  --color-surface: #fff5f8;
+  --color-ink: #2b2b2b;
+  --color-ink-soft: #6b6b73;
+  --color-line: #f1e4ea;
+  --radius-card: 16px;
+  --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont,
+    "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+}
+
+html,
+body {
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+@keyframes pop-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-pop-in {
+  animation: pop-in 0.25s ease-out both;
+}

@@ -1,0 +1,7647 @@
+{
+ "source": "인천대학교 2026학년도 2학기 수강신청편람 (핵심·심화교양)",
+ "semester": "2026학년도 2학기",
+ "is_sample": false,
+ "courses": [
+  {
+   "id": "0004317001",
+   "name": "인문학고전읽기",
+   "category": "핵심교양·INU세미나",
+   "description": null,
+   "professor": "안성재",
+   "day": "수",
+   "time": "12:00~14:50",
+   "building": "12호관",
+   "room": "103",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "12호관",
+     "room": "103"
+    }
+   ]
+  },
+  {
+   "id": "0004322001",
+   "name": "과학기술명저읽기",
+   "category": "핵심교양·INU세미나",
+   "description": null,
+   "professor": "정경숙",
+   "day": "월",
+   "time": "15:00~17:45",
+   "building": "12호관",
+   "room": "108",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "12호관",
+     "room": "108"
+    }
+   ]
+  },
+  {
+   "id": "0004322002",
+   "name": "과학기술명저읽기",
+   "category": "핵심교양·INU세미나",
+   "description": null,
+   "professor": "정경숙",
+   "day": "수",
+   "time": "15:00~17:45",
+   "building": "12호관",
+   "room": "108",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "12호관",
+     "room": "108"
+    }
+   ]
+  },
+  {
+   "id": "0010153001",
+   "name": "왜우리는대학에왔는가세미나",
+   "category": "핵심교양·INU세미나",
+   "description": null,
+   "professor": "김윤경",
+   "day": "목",
+   "time": "15:00~16:50",
+   "building": "12호관",
+   "room": "301",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "7",
+      "8"
+     ],
+     "time": "15:00~16:50",
+     "building": "12호관",
+     "room": "301"
+    }
+   ]
+  },
+  {
+   "id": "0010154001",
+   "name": "근대적지식인은어떻게탄생하였나세미나",
+   "category": "핵심교양·INU세미나",
+   "description": null,
+   "professor": "이상원",
+   "day": "수",
+   "time": "15:00~17:45",
+   "building": "12호관",
+   "room": "304",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "12호관",
+     "room": "304"
+    }
+   ]
+  },
+  {
+   "id": "0011229001",
+   "name": "MBTI로찾아가는나의책",
+   "category": "핵심교양·INU세미나",
+   "description": null,
+   "professor": "박상원",
+   "day": "월",
+   "time": "15:00~17:45",
+   "building": "12호관",
+   "room": "505",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "12호관",
+     "room": "505"
+    }
+   ]
+  },
+  {
+   "id": "0011230001",
+   "name": "세상의심장으로자신을브랜드하라",
+   "category": "핵심교양·INU세미나",
+   "description": null,
+   "professor": "양근용",
+   "day": "화",
+   "time": "14:00~16:50",
+   "building": "12호관",
+   "room": "301",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "6",
+      "7",
+      "8"
+     ],
+     "time": "14:00~16:50",
+     "building": "12호관",
+     "room": "301"
+    }
+   ]
+  },
+  {
+   "id": "0011231001",
+   "name": "일리아스와오딧세이아에서아모르파티",
+   "category": "핵심교양·INU세미나",
+   "description": null,
+   "professor": "송대현",
+   "day": "수",
+   "time": "12:00~14:45",
+   "building": "12호관",
+   "room": "301",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "4-5A",
+      "5B-6"
+     ],
+     "time": "12:00~14:45",
+     "building": "12호관",
+     "room": "301"
+    }
+   ]
+  },
+  {
+   "id": "0011232001",
+   "name": "차라투스트라춤추는별이되어라",
+   "category": "핵심교양·INU세미나",
+   "description": null,
+   "professor": "송대현",
+   "day": "월",
+   "time": "15:00~17:45",
+   "building": "12호관",
+   "room": "301",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "12호관",
+     "room": "301"
+    }
+   ]
+  },
+  {
+   "id": "0011233001",
+   "name": "프랑켄슈타인과검은고양이를만나다",
+   "category": "핵심교양·INU세미나",
+   "description": null,
+   "professor": "남정현",
+   "day": "월",
+   "time": "11:00~13:50",
+   "building": "12호관",
+   "room": "301",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "3",
+      "4",
+      "5"
+     ],
+     "time": "11:00~13:50",
+     "building": "12호관",
+     "room": "301"
+    }
+   ]
+  },
+  {
+   "id": "0011244001",
+   "name": "현대과학의풍경읽기",
+   "category": "핵심교양·INU세미나",
+   "description": null,
+   "professor": "정경숙",
+   "day": "화",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "304",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "304"
+    }
+   ]
+  },
+  {
+   "id": "0011631001",
+   "name": "문학욕망의윤리를말하다",
+   "category": "핵심교양·INU세미나",
+   "description": null,
+   "professor": "최혜림",
+   "day": "수",
+   "time": "15:00~17:50",
+   "building": "15호관",
+   "room": "211",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "15호관",
+     "room": "211"
+    }
+   ]
+  },
+  {
+   "id": "0011631002",
+   "name": "문학욕망의윤리를말하다",
+   "category": "핵심교양·INU세미나",
+   "description": null,
+   "professor": "최혜림",
+   "day": "목",
+   "time": "12:00~14:50",
+   "building": "15호관",
+   "room": "211",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "15호관",
+     "room": "211"
+    }
+   ]
+  },
+  {
+   "id": "0011845001",
+   "name": "위대한개츠비와그의친구들",
+   "category": "핵심교양·INU세미나",
+   "description": null,
+   "professor": "남정현",
+   "day": "화",
+   "time": "11:00~13:50",
+   "building": "12호관",
+   "room": "301",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "3",
+      "4",
+      "5"
+     ],
+     "time": "11:00~13:50",
+     "building": "12호관",
+     "room": "301"
+    }
+   ]
+  },
+  {
+   "id": "0011848001",
+   "name": "스토리텔링을위한시학읽기",
+   "category": "핵심교양·INU세미나",
+   "description": null,
+   "professor": "윤숙",
+   "day": "월",
+   "time": "12:00~14:50",
+   "building": "12호관",
+   "room": "304",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "12호관",
+     "room": "304"
+    }
+   ]
+  },
+  {
+   "id": "0002644001",
+   "name": "미학의이해",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "윤영규",
+   "day": "수",
+   "time": "10:00~12:50",
+   "building": "12호관",
+   "room": "403",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "2",
+      "3",
+      "4"
+     ],
+     "time": "10:00~12:50",
+     "building": "12호관",
+     "room": "403"
+    }
+   ]
+  },
+  {
+   "id": "0002644002",
+   "name": "미학의이해",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "윤영규",
+   "day": "수",
+   "time": "13:00~15:50",
+   "building": "12호관",
+   "room": "403",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "5",
+      "6",
+      "7"
+     ],
+     "time": "13:00~15:50",
+     "building": "12호관",
+     "room": "403"
+    }
+   ]
+  },
+  {
+   "id": "0004323001",
+   "name": "과학기술과인간의대화",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "정경숙",
+   "day": "수",
+   "time": "12:00~14:45",
+   "building": "12호관",
+   "room": "108",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "4-5A",
+      "5B-6"
+     ],
+     "time": "12:00~14:45",
+     "building": "12호관",
+     "room": "108"
+    }
+   ]
+  },
+  {
+   "id": "0004345001",
+   "name": "근현대문학거장과의만남",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "권혁준",
+   "day": "수",
+   "time": "15:00~17:45",
+   "building": "12호관",
+   "room": "502",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "12호관",
+     "room": "502"
+    }
+   ]
+  },
+  {
+   "id": "0004345002",
+   "name": "근현대문학거장과의만남",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "김계영",
+   "day": "목",
+   "time": "15:00~17:45",
+   "building": "12호관",
+   "room": "108",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "12호관",
+     "room": "108"
+    }
+   ]
+  },
+  {
+   "id": "0004345003",
+   "name": "근현대문학거장과의만남",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "김계영",
+   "day": "목",
+   "time": "11:00~13:50",
+   "building": "12호관",
+   "room": "108",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "3",
+      "4",
+      "5"
+     ],
+     "time": "11:00~13:50",
+     "building": "12호관",
+     "room": "108"
+    }
+   ]
+  },
+  {
+   "id": "0005068001",
+   "name": "비판적사고력연습",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "이재유",
+   "day": "목",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "203",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "203"
+    }
+   ]
+  },
+  {
+   "id": "0005068002",
+   "name": "비판적사고력연습",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "이재유",
+   "day": "목",
+   "time": "18:00~20:40",
+   "building": "12호관",
+   "room": "203",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "야1",
+      "야2",
+      "야3"
+     ],
+     "time": "18:00~20:40",
+     "building": "12호관",
+     "room": "203"
+    }
+   ]
+  },
+  {
+   "id": "0005071001",
+   "name": "현대사회와여성",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "손명아",
+   "day": "금",
+   "time": "09:00~11:50",
+   "building": "12호관",
+   "room": "205",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "12호관",
+     "room": "205"
+    }
+   ]
+  },
+  {
+   "id": "0007030001",
+   "name": "인천의역사지형탐색",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "이상의",
+   "day": "수",
+   "time": "10:00~12:50",
+   "building": "12호관",
+   "room": "503",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "2",
+      "3",
+      "4"
+     ],
+     "time": "10:00~12:50",
+     "building": "12호관",
+     "room": "503"
+    }
+   ]
+  },
+  {
+   "id": "0007399001",
+   "name": "근현대세계와한국사",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "이상의",
+   "day": "수",
+   "time": "15:00~17:45",
+   "building": "12호관",
+   "room": "503",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "12호관",
+     "room": "503"
+    }
+   ]
+  },
+  {
+   "id": "0007399002",
+   "name": "근현대세계와한국사",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "이상의",
+   "day": "화",
+   "time": "15:00~17:45",
+   "building": "12호관",
+   "room": "503",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "12호관",
+     "room": "503"
+    }
+   ]
+  },
+  {
+   "id": "0007399003",
+   "name": "근현대세계와한국사",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "황묘희",
+   "day": "금",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "403",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "403"
+    }
+   ]
+  },
+  {
+   "id": "0007399004",
+   "name": "근현대세계와한국사",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "황묘희",
+   "day": "금",
+   "time": "12:00~14:50",
+   "building": "12호관",
+   "room": "403",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "12호관",
+     "room": "403"
+    }
+   ]
+  },
+  {
+   "id": "0008631001",
+   "name": "언어의이해",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "박보연",
+   "day": "금",
+   "time": "15:00~17:45",
+   "building": "12호관",
+   "room": "406",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "12호관",
+     "room": "406"
+    }
+   ]
+  },
+  {
+   "id": "0010350001",
+   "name": "동아시아의역사와문화",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "정은주",
+   "day": "목",
+   "time": "12:00~14:45",
+   "building": "12호관",
+   "room": "504",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "4-5A",
+      "5B-6"
+     ],
+     "time": "12:00~14:45",
+     "building": "12호관",
+     "room": "504"
+    }
+   ]
+  },
+  {
+   "id": "0011369001",
+   "name": "한문으로배우는삶의지혜",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "이은봉",
+   "day": "수",
+   "time": "10:00~12:50",
+   "building": "12호관",
+   "room": "504",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "2",
+      "3",
+      "4"
+     ],
+     "time": "10:00~12:50",
+     "building": "12호관",
+     "room": "504"
+    }
+   ]
+  },
+  {
+   "id": "0012550001",
+   "name": "스피치와토론",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "안호림",
+   "day": "화",
+   "time": "18:00~20:40",
+   "building": "12호관",
+   "room": "304",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "야1-2A",
+      "야2B-3"
+     ],
+     "time": "18:00~20:40",
+     "building": "12호관",
+     "room": "304"
+    }
+   ]
+  },
+  {
+   "id": "0012550002",
+   "name": "스피치와토론",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "안호림",
+   "day": "월",
+   "time": "15:00~17:45",
+   "building": "12호관",
+   "room": "304",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "12호관",
+     "room": "304"
+    }
+   ]
+  },
+  {
+   "id": "0012554001",
+   "name": "문학과함께행복의길찾기",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "전미정",
+   "day": "수",
+   "time": "13:00~15:50",
+   "building": "12호관",
+   "room": "303",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "5",
+      "6",
+      "7"
+     ],
+     "time": "13:00~15:50",
+     "building": "12호관",
+     "room": "303"
+    }
+   ]
+  },
+  {
+   "id": "0012554002",
+   "name": "문학과함께행복의길찾기",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "전미정",
+   "day": "목",
+   "time": "10:30~13:15",
+   "building": "12호관",
+   "room": "403",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "2B-3",
+      "4-5A"
+     ],
+     "time": "10:30~13:15",
+     "building": "12호관",
+     "room": "403"
+    }
+   ]
+  },
+  {
+   "id": "XAA1352001",
+   "name": "심리학의이해",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "서신화",
+   "day": "월",
+   "time": "12:00~14:45",
+   "building": "12호관",
+   "room": "108",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "4-5A",
+      "5B-6"
+     ],
+     "time": "12:00~14:45",
+     "building": "12호관",
+     "room": "108"
+    }
+   ]
+  },
+  {
+   "id": "XAA1352002",
+   "name": "심리학의이해",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "서신화",
+   "day": "화",
+   "time": "18:00~20:40",
+   "building": "12호관",
+   "room": "108",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "야1-2A",
+      "야2B-3"
+     ],
+     "time": "18:00~20:40",
+     "building": "12호관",
+     "room": "108"
+    }
+   ]
+  },
+  {
+   "id": "XAA1352003",
+   "name": "심리학의이해",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "서신화",
+   "day": "화",
+   "time": "15:00~17:45",
+   "building": "12호관",
+   "room": "108",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "12호관",
+     "room": "108"
+    }
+   ]
+  },
+  {
+   "id": "XAA1352004",
+   "name": "심리학의이해",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "박준성",
+   "day": "금",
+   "time": "10:00~12:50",
+   "building": "12호관",
+   "room": "101",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "2",
+      "3",
+      "4"
+     ],
+     "time": "10:00~12:50",
+     "building": "12호관",
+     "room": "101"
+    }
+   ]
+  },
+  {
+   "id": "XAA1352005",
+   "name": "심리학의이해",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "박준성",
+   "day": "금",
+   "time": "14:00~16:50",
+   "building": "12호관",
+   "room": "101",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "6",
+      "7",
+      "8"
+     ],
+     "time": "14:00~16:50",
+     "building": "12호관",
+     "room": "101"
+    }
+   ]
+  },
+  {
+   "id": "XAA1490001",
+   "name": "한국사의이해",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "이형우",
+   "day": "목",
+   "time": "15:00~17:45",
+   "building": "12호관",
+   "room": "403",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "12호관",
+     "room": "403"
+    }
+   ]
+  },
+  {
+   "id": "XAA1490002",
+   "name": "한국사의이해",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "박미선",
+   "day": "화",
+   "time": "09:00~11:50",
+   "building": "12호관",
+   "room": "404",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "12호관",
+     "room": "404"
+    }
+   ]
+  },
+  {
+   "id": "XAA1490003",
+   "name": "한국사의이해",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "박미선",
+   "day": "화",
+   "time": "12:00~14:50",
+   "building": "12호관",
+   "room": "404",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "12호관",
+     "room": "404"
+    }
+   ]
+  },
+  {
+   "id": "XAA2032001",
+   "name": "서양의역사와문화",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "안창모",
+   "day": "목",
+   "time": "12:00~14:50",
+   "building": "12호관",
+   "room": "303",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "12호관",
+     "room": "303"
+    }
+   ]
+  },
+  {
+   "id": "XAA2032002",
+   "name": "서양의역사와문화",
+   "category": "핵심교양·인문",
+   "description": null,
+   "professor": "안창모",
+   "day": "목",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "303",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "303"
+    }
+   ]
+  },
+  {
+   "id": "0002650001",
+   "name": "현대정치의이해",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "송윤진",
+   "day": "목",
+   "time": "18:00~20:40",
+   "building": "12호관",
+   "room": "504",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "야1-2A",
+      "야2B-3"
+     ],
+     "time": "18:00~20:40",
+     "building": "12호관",
+     "room": "504"
+    }
+   ]
+  },
+  {
+   "id": "0003206001",
+   "name": "소셜커뮤니케이션",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "이문학",
+   "day": "수",
+   "time": "10:30~13:15",
+   "building": "12호관",
+   "room": "404",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "2B-3",
+      "4-5A"
+     ],
+     "time": "10:30~13:15",
+     "building": "12호관",
+     "room": "404"
+    }
+   ]
+  },
+  {
+   "id": "0004617001",
+   "name": "현대사회학의이해",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "손명아",
+   "day": "금",
+   "time": "13:00~15:50",
+   "building": "12호관",
+   "room": "205",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "5",
+      "6",
+      "7"
+     ],
+     "time": "13:00~15:50",
+     "building": "12호관",
+     "room": "205"
+    }
+   ]
+  },
+  {
+   "id": "0005063001",
+   "name": "열린사회와다문화",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "정선주",
+   "day": "수",
+   "time": "12:00~14:50",
+   "building": "12호관",
+   "room": "502",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "12호관",
+     "room": "502"
+    }
+   ]
+  },
+  {
+   "id": "0005063002",
+   "name": "열린사회와다문화",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "정선주",
+   "day": "수",
+   "time": "09:00~11:50",
+   "building": "12호관",
+   "room": "407",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "12호관",
+     "room": "407"
+    }
+   ]
+  },
+  {
+   "id": "0005077001",
+   "name": "국제정세의이해",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "송윤진",
+   "day": "월",
+   "time": "10:30~13:15",
+   "building": "12호관",
+   "room": "504",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "2B-3",
+      "4-5A"
+     ],
+     "time": "10:30~13:15",
+     "building": "12호관",
+     "room": "504"
+    }
+   ]
+  },
+  {
+   "id": "0005077002",
+   "name": "국제정세의이해",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "송윤진",
+   "day": "금",
+   "time": "11:00~13:50",
+   "building": "12호관",
+   "room": "504",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "3",
+      "4",
+      "5"
+     ],
+     "time": "11:00~13:50",
+     "building": "12호관",
+     "room": "504"
+    }
+   ]
+  },
+  {
+   "id": "0006403001",
+   "name": "창의적사고와문제해결",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "양태연",
+   "day": "목",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "302",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "302"
+    }
+   ]
+  },
+  {
+   "id": "0006403002",
+   "name": "창의적사고와문제해결",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "양태연",
+   "day": "수",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "302",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "302"
+    }
+   ]
+  },
+  {
+   "id": "0006433001",
+   "name": "현대사회와빅데이터",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "양태연",
+   "day": "화",
+   "time": "18:00~20:40",
+   "building": "12호관",
+   "room": "302",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "야1",
+      "야2",
+      "야3"
+     ],
+     "time": "18:00~20:40",
+     "building": "12호관",
+     "room": "302"
+    }
+   ]
+  },
+  {
+   "id": "0006433002",
+   "name": "현대사회와빅데이터",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "양태연",
+   "day": "화",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "302",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "302"
+    }
+   ]
+  },
+  {
+   "id": "0007364001",
+   "name": "지구환경과공공문제",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "타오",
+   "day": "화",
+   "time": "09:00~11:45",
+   "building": "12호관",
+   "room": "303",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "1-2A",
+      "2B-3"
+     ],
+     "time": "09:00~11:45",
+     "building": "12호관",
+     "room": "303"
+    }
+   ]
+  },
+  {
+   "id": "0010641001",
+   "name": "지역사회와사회공헌",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "이지혜",
+   "day": "목",
+   "time": "16:00~17:50",
+   "building": "12호관",
+   "room": "103",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "8",
+      "9"
+     ],
+     "time": "16:00~17:50",
+     "building": "12호관",
+     "room": "103"
+    }
+   ]
+  },
+  {
+   "id": "0010641002",
+   "name": "지역사회와사회공헌",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "이지혜",
+   "day": "화",
+   "time": "15:00~16:50",
+   "building": "12호관",
+   "room": "103",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "7",
+      "8"
+     ],
+     "time": "15:00~16:50",
+     "building": "12호관",
+     "room": "103"
+    }
+   ]
+  },
+  {
+   "id": "0010641003",
+   "name": "지역사회와사회공헌",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "이지혜",
+   "day": "금",
+   "time": "18:00~19:45",
+   "building": "12호관",
+   "room": "103",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "야1",
+      "야2"
+     ],
+     "time": "18:00~19:45",
+     "building": "12호관",
+     "room": "103"
+    }
+   ]
+  },
+  {
+   "id": "0010641004",
+   "name": "지역사회와사회공헌",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "이지혜",
+   "day": "월",
+   "time": "18:00~19:45",
+   "building": "12호관",
+   "room": "103",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "야1",
+      "야2"
+     ],
+     "time": "18:00~19:45",
+     "building": "12호관",
+     "room": "103"
+    }
+   ]
+  },
+  {
+   "id": "0010641005",
+   "name": "지역사회와사회공헌",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "이지혜",
+   "day": "화",
+   "time": "18:00~19:45",
+   "building": "12호관",
+   "room": "103",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "야1",
+      "야2"
+     ],
+     "time": "18:00~19:45",
+     "building": "12호관",
+     "room": "103"
+    }
+   ]
+  },
+  {
+   "id": "0010641006",
+   "name": "지역사회와사회공헌",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "이지혜",
+   "day": "목",
+   "time": "18:00~19:45",
+   "building": "12호관",
+   "room": "103",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "야1",
+      "야2"
+     ],
+     "time": "18:00~19:45",
+     "building": "12호관",
+     "room": "103"
+    }
+   ]
+  },
+  {
+   "id": "0011241001",
+   "name": "취창업진로세미나",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "취업경력개발원",
+   "day": "수",
+   "time": "17:00~17:50",
+   "building": "12호관",
+   "room": "105",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "9"
+     ],
+     "time": "17:00~17:50",
+     "building": "12호관",
+     "room": "105"
+    }
+   ]
+  },
+  {
+   "id": "0011241002",
+   "name": "취창업진로세미나",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "취업경력개발원",
+   "day": "수",
+   "time": "16:00~16:50",
+   "building": "12호관",
+   "room": "105",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "8"
+     ],
+     "time": "16:00~16:50",
+     "building": "12호관",
+     "room": "105"
+    }
+   ]
+  },
+  {
+   "id": "0012551001",
+   "name": "미래를바꾸는말한마디",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "안호림",
+   "day": "월",
+   "time": "18:00~20:40",
+   "building": "12호관",
+   "room": "203",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "야1-2A",
+      "야2B-3"
+     ],
+     "time": "18:00~20:40",
+     "building": "12호관",
+     "room": "203"
+    }
+   ]
+  },
+  {
+   "id": "XAA8063001",
+   "name": "인간관계와리더십",
+   "category": "핵심교양·사회",
+   "description": null,
+   "professor": "홍혜연",
+   "day": "월",
+   "time": "12:00~14:50",
+   "building": "12호관",
+   "room": "505",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "12호관",
+     "room": "505"
+    }
+   ]
+  },
+  {
+   "id": "0005069001",
+   "name": "영화속바이러스의이해",
+   "category": "핵심교양·과학기술",
+   "description": null,
+   "professor": "예정용",
+   "day": "화",
+   "time": "09:00~11:50",
+   "building": "12호관",
+   "room": "105",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "12호관",
+     "room": "105"
+    }
+   ]
+  },
+  {
+   "id": "0007369001",
+   "name": "알기쉬운통계원리",
+   "category": "핵심교양·과학기술",
+   "description": null,
+   "professor": "최원",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0007370001",
+   "name": "(이공계를위한)수학",
+   "category": "핵심교양·과학기술",
+   "description": null,
+   "professor": "김인현",
+   "day": "월·화",
+   "time": "10:30~11:45",
+   "building": "5호관",
+   "room": "102A",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "2B-3"
+     ],
+     "time": "10:30~11:45",
+     "building": "5호관",
+     "room": "102A"
+    },
+    {
+     "day": "화",
+     "periods": [
+      "2B-3"
+     ],
+     "time": "10:30~11:45",
+     "building": "5호관",
+     "room": "102A"
+    }
+   ]
+  },
+  {
+   "id": "0009338001",
+   "name": "문제해결을위한파이썬",
+   "category": "핵심교양·과학기술",
+   "description": null,
+   "professor": "김백현",
+   "day": "수",
+   "time": "12:00~14:45",
+   "building": "12호관",
+   "room": "302",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "4-5A",
+      "5B-6"
+     ],
+     "time": "12:00~14:45",
+     "building": "12호관",
+     "room": "302"
+    }
+   ]
+  },
+  {
+   "id": "0009338002",
+   "name": "문제해결을위한파이썬",
+   "category": "핵심교양·과학기술",
+   "description": null,
+   "professor": "김백현",
+   "day": "화",
+   "time": "14:00~16:50",
+   "building": "12호관",
+   "room": "305",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "6",
+      "7",
+      "8"
+     ],
+     "time": "14:00~16:50",
+     "building": "12호관",
+     "room": "305"
+    }
+   ]
+  },
+  {
+   "id": "0009338003",
+   "name": "문제해결을위한파이썬",
+   "category": "핵심교양·과학기술",
+   "description": null,
+   "professor": "이선아",
+   "day": "월",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "302",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "302"
+    }
+   ]
+  },
+  {
+   "id": "0010453001",
+   "name": "기초데이터분석",
+   "category": "핵심교양·과학기술",
+   "description": null,
+   "professor": "김재곤",
+   "day": "월·화",
+   "time": "13:30~14:45",
+   "building": "8호관",
+   "room": "401",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "5B-6"
+     ],
+     "time": "13:30~14:45",
+     "building": "8호관",
+     "room": "401"
+    },
+    {
+     "day": "화",
+     "periods": [
+      "5B-6"
+     ],
+     "time": "13:30~14:45",
+     "building": "8호관",
+     "room": "401"
+    }
+   ]
+  },
+  {
+   "id": "0010453002",
+   "name": "기초데이터분석",
+   "category": "핵심교양·과학기술",
+   "description": null,
+   "professor": "김재곤",
+   "day": "월·수",
+   "time": "16:30~17:45 / 13:30~14:45",
+   "building": "8호관",
+   "room": "401",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "8B-9"
+     ],
+     "time": "16:30~17:45",
+     "building": "8호관",
+     "room": "401"
+    },
+    {
+     "day": "수",
+     "periods": [
+      "5B-6"
+     ],
+     "time": "13:30~14:45",
+     "building": "8호관",
+     "room": "401"
+    }
+   ]
+  },
+  {
+   "id": "XAA1360001",
+   "name": "현대물리학의이해",
+   "category": "핵심교양·과학기술",
+   "description": null,
+   "professor": "김용철",
+   "day": "월",
+   "time": "12:00~14:50",
+   "building": "12호관",
+   "room": "507",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "12호관",
+     "room": "507"
+    }
+   ]
+  },
+  {
+   "id": "XAA1360002",
+   "name": "현대물리학의이해",
+   "category": "핵심교양·과학기술",
+   "description": null,
+   "professor": "김용철",
+   "day": "월",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "507",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "507"
+    }
+   ]
+  },
+  {
+   "id": "0003601001",
+   "name": "FITNESS TRAINING",
+   "category": "핵심교양·예술체육",
+   "description": null,
+   "professor": "이세원",
+   "day": "수",
+   "time": "15:00~16:50",
+   "building": "20호관",
+   "room": "205",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "7",
+      "8"
+     ],
+     "time": "15:00~16:50",
+     "building": "20호관",
+     "room": "205"
+    }
+   ]
+  },
+  {
+   "id": "0009068001",
+   "name": "글로벌디자인이슈",
+   "category": "핵심교양·예술체육",
+   "description": null,
+   "professor": "안혜신",
+   "day": "월",
+   "time": "14:00~16:50",
+   "building": "12호관",
+   "room": "101",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "6",
+      "7",
+      "8"
+     ],
+     "time": "14:00~16:50",
+     "building": "12호관",
+     "room": "101"
+    }
+   ]
+  },
+  {
+   "id": "0010538001",
+   "name": "달리기와건강",
+   "category": "핵심교양·예술체육",
+   "description": null,
+   "professor": "윤기준",
+   "day": "목",
+   "time": "15:00~16:50",
+   "building": "ZC",
+   "room": "102",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "7",
+      "8"
+     ],
+     "time": "15:00~16:50",
+     "building": "ZC",
+     "room": "102"
+    }
+   ]
+  },
+  {
+   "id": "0010541001",
+   "name": "영화속으로들어간클래식음악",
+   "category": "핵심교양·예술체육",
+   "description": null,
+   "professor": "김상림",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0011861001",
+   "name": "초급평영",
+   "category": "핵심교양·예술체육",
+   "description": null,
+   "professor": "김민철",
+   "day": "수",
+   "time": "14:00~15:50",
+   "building": "20호관",
+   "room": "110",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "6",
+      "7"
+     ],
+     "time": "14:00~15:50",
+     "building": "20호관",
+     "room": "110"
+    }
+   ]
+  },
+  {
+   "id": "0011863001",
+   "name": "세계공연예술산책",
+   "category": "핵심교양·예술체육",
+   "description": null,
+   "professor": "정지호",
+   "day": "화",
+   "time": "10:30~13:15",
+   "building": "12호관",
+   "room": "101",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "2B-3",
+      "4-5A"
+     ],
+     "time": "10:30~13:15",
+     "building": "12호관",
+     "room": "101"
+    }
+   ]
+  },
+  {
+   "id": "XAA1386001",
+   "name": "한국미술과문화",
+   "category": "핵심교양·예술체육",
+   "description": null,
+   "professor": "구진경",
+   "day": "월",
+   "time": "12:00~14:50",
+   "building": "12호관",
+   "room": "503",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "12호관",
+     "room": "503"
+    }
+   ]
+  },
+  {
+   "id": "XAA1386002",
+   "name": "한국미술과문화",
+   "category": "핵심교양·예술체육",
+   "description": null,
+   "professor": "구진경",
+   "day": "월",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "503",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "503"
+    }
+   ]
+  },
+  {
+   "id": "0002666001",
+   "name": "일본어1",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "이건상",
+   "day": "수",
+   "time": "09:00~11:45",
+   "building": "12호관",
+   "room": "205",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "1-2A",
+      "2B-3"
+     ],
+     "time": "09:00~11:45",
+     "building": "12호관",
+     "room": "205"
+    }
+   ]
+  },
+  {
+   "id": "0002666002",
+   "name": "일본어1",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "이건상",
+   "day": "화",
+   "time": "09:00~11:45",
+   "building": "12호관",
+   "room": "205",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "1-2A",
+      "2B-3"
+     ],
+     "time": "09:00~11:45",
+     "building": "12호관",
+     "room": "205"
+    }
+   ]
+  },
+  {
+   "id": "0002666003",
+   "name": "일본어1",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "전혜수",
+   "day": "수",
+   "time": "09:00~11:50",
+   "building": "15호관",
+   "room": "212",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "15호관",
+     "room": "212"
+    }
+   ]
+  },
+  {
+   "id": "0002666004",
+   "name": "일본어1",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "전혜수",
+   "day": "수",
+   "time": "13:00~15:50",
+   "building": "15호관",
+   "room": "212",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "5",
+      "6",
+      "7"
+     ],
+     "time": "13:00~15:50",
+     "building": "15호관",
+     "room": "212"
+    }
+   ]
+  },
+  {
+   "id": "0002666005",
+   "name": "일본어1",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "문인숙",
+   "day": "목",
+   "time": "12:00~14:50",
+   "building": "12호관",
+   "room": "507",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "12호관",
+     "room": "507"
+    }
+   ]
+  },
+  {
+   "id": "0002666006",
+   "name": "일본어1",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "문인숙",
+   "day": "목",
+   "time": "18:00~20:40",
+   "building": "12호관",
+   "room": "507",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "야1",
+      "야2",
+      "야3"
+     ],
+     "time": "18:00~20:40",
+     "building": "12호관",
+     "room": "507"
+    }
+   ]
+  },
+  {
+   "id": "0002667001",
+   "name": "중국어1",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "안성재",
+   "day": "화",
+   "time": "12:00~14:50",
+   "building": "12호관",
+   "room": "403",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "12호관",
+     "room": "403"
+    }
+   ]
+  },
+  {
+   "id": "0002667002",
+   "name": "중국어1",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "고은미",
+   "day": "금",
+   "time": "09:00~11:50",
+   "building": "12호관",
+   "room": "506",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "12호관",
+     "room": "506"
+    }
+   ]
+  },
+  {
+   "id": "0002667003",
+   "name": "중국어1",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "고은미",
+   "day": "금",
+   "time": "13:00~15:50",
+   "building": "12호관",
+   "room": "506",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "5",
+      "6",
+      "7"
+     ],
+     "time": "13:00~15:50",
+     "building": "12호관",
+     "room": "506"
+    }
+   ]
+  },
+  {
+   "id": "0005414001",
+   "name": "초급영어글쓰기",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "김혜경",
+   "day": "목",
+   "time": "13:00~14:50",
+   "building": "12호관",
+   "room": "407",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "5",
+      "6"
+     ],
+     "time": "13:00~14:50",
+     "building": "12호관",
+     "room": "407"
+    }
+   ]
+  },
+  {
+   "id": "0005414002",
+   "name": "초급영어글쓰기",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "김혜경",
+   "day": "목",
+   "time": "11:00~12:50",
+   "building": "12호관",
+   "room": "407",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "3",
+      "4"
+     ],
+     "time": "11:00~12:50",
+     "building": "12호관",
+     "room": "407"
+    }
+   ]
+  },
+  {
+   "id": "0011640001",
+   "name": "기초프랑스어",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "김용민",
+   "day": "수",
+   "time": "13:30~16:15",
+   "building": "12호관",
+   "room": "407",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "5B-6",
+      "7-8A"
+     ],
+     "time": "13:30~16:15",
+     "building": "12호관",
+     "room": "407"
+    }
+   ]
+  },
+  {
+   "id": "0011640002",
+   "name": "기초프랑스어",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "이명은",
+   "day": "수",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "505",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "505"
+    }
+   ]
+  },
+  {
+   "id": "0011640003",
+   "name": "기초프랑스어",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "이명은",
+   "day": "수",
+   "time": "18:00~20:40",
+   "building": "12호관",
+   "room": "505",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "야1",
+      "야2",
+      "야3"
+     ],
+     "time": "18:00~20:40",
+     "building": "12호관",
+     "room": "505"
+    }
+   ]
+  },
+  {
+   "id": "0011640004",
+   "name": "기초프랑스어",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "김영은",
+   "day": "금",
+   "time": "09:00~11:50",
+   "building": "12호관",
+   "room": "503",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "12호관",
+     "room": "503"
+    }
+   ]
+  },
+  {
+   "id": "0011644001",
+   "name": "기초스페인어",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "문성주",
+   "day": "월",
+   "time": "10:00~12:50",
+   "building": "12호관",
+   "room": "404",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "2",
+      "3",
+      "4"
+     ],
+     "time": "10:00~12:50",
+     "building": "12호관",
+     "room": "404"
+    }
+   ]
+  },
+  {
+   "id": "0011644002",
+   "name": "기초스페인어",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "문성주",
+   "day": "월",
+   "time": "14:00~16:50",
+   "building": "12호관",
+   "room": "404",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "6",
+      "7",
+      "8"
+     ],
+     "time": "14:00~16:50",
+     "building": "12호관",
+     "room": "404"
+    }
+   ]
+  },
+  {
+   "id": "0011645001",
+   "name": "기초독일어",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "주소정",
+   "day": "월",
+   "time": "13:30~16:15",
+   "building": "12호관",
+   "room": "407",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "5B-6",
+      "7-8A"
+     ],
+     "time": "13:30~16:15",
+     "building": "12호관",
+     "room": "407"
+    }
+   ]
+  },
+  {
+   "id": "0011645002",
+   "name": "기초독일어",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "최은녕",
+   "day": "목",
+   "time": "09:00~11:50",
+   "building": "12호관",
+   "room": "501",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "12호관",
+     "room": "501"
+    }
+   ]
+  },
+  {
+   "id": "0011645003",
+   "name": "기초독일어",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "최은녕",
+   "day": "목",
+   "time": "14:00~16:50",
+   "building": "12호관",
+   "room": "501",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "6",
+      "7",
+      "8"
+     ],
+     "time": "14:00~16:50",
+     "building": "12호관",
+     "room": "501"
+    }
+   ]
+  },
+  {
+   "id": "0011645004",
+   "name": "기초독일어",
+   "category": "핵심교양·외국어",
+   "description": null,
+   "professor": "최은녕",
+   "day": "목",
+   "time": "18:00~20:40",
+   "building": "12호관",
+   "room": "501",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "야1",
+      "야2",
+      "야3"
+     ],
+     "time": "18:00~20:40",
+     "building": "12호관",
+     "room": "501"
+    }
+   ]
+  },
+  {
+   "id": "0004338001",
+   "name": "영상으로읽는서양문학",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "김계영",
+   "day": "수",
+   "time": "11:00~13:50",
+   "building": "12호관",
+   "room": "203",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "3",
+      "4",
+      "5"
+     ],
+     "time": "11:00~13:50",
+     "building": "12호관",
+     "room": "203"
+    }
+   ]
+  },
+  {
+   "id": "0004338002",
+   "name": "영상으로읽는서양문학",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "김계영",
+   "day": "화",
+   "time": "11:00~13:50",
+   "building": "12호관",
+   "room": "203",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "3",
+      "4",
+      "5"
+     ],
+     "time": "11:00~13:50",
+     "building": "12호관",
+     "room": "203"
+    }
+   ]
+  },
+  {
+   "id": "0005413001",
+   "name": "현대사회와인성",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "신승원",
+   "day": "화",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "403",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "403"
+    }
+   ]
+  },
+  {
+   "id": "0005413002",
+   "name": "현대사회와인성",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "신승원",
+   "day": "화",
+   "time": "18:00~20:40",
+   "building": "12호관",
+   "room": "403",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "야1",
+      "야2",
+      "야3"
+     ],
+     "time": "18:00~20:40",
+     "building": "12호관",
+     "room": "403"
+    }
+   ]
+  },
+  {
+   "id": "0006110001",
+   "name": "논어의오해와진실",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "안성재",
+   "day": "월",
+   "time": "12:00~14:50",
+   "building": "12호관",
+   "room": "103",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "12호관",
+     "room": "103"
+    }
+   ]
+  },
+  {
+   "id": "0006404001",
+   "name": "한국문화의뉴웨이브",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "장영은",
+   "day": "금",
+   "time": "12:00~14:45",
+   "building": "15호관",
+   "room": "211",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "4-5A",
+      "5B-6"
+     ],
+     "time": "12:00~14:45",
+     "building": "15호관",
+     "room": "211"
+    }
+   ]
+  },
+  {
+   "id": "0006998001",
+   "name": "(이공계를위한)중국과학기술의10가지기적",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "이정희",
+   "day": "수",
+   "time": "09:00~11:45",
+   "building": "12호관",
+   "room": "405",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "1-2A",
+      "2B-3"
+     ],
+     "time": "09:00~11:45",
+     "building": "12호관",
+     "room": "405"
+    }
+   ]
+  },
+  {
+   "id": "0007008001",
+   "name": "세계인식과인간의이해",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "이강원",
+   "day": "수",
+   "time": "13:30~16:15",
+   "building": "12호관",
+   "room": "205",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "5B-6",
+      "7-8A"
+     ],
+     "time": "13:30~16:15",
+     "building": "12호관",
+     "room": "205"
+    }
+   ]
+  },
+  {
+   "id": "0007008002",
+   "name": "세계인식과인간의이해",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "이강원",
+   "day": "화",
+   "time": "12:00~14:45",
+   "building": "12호관",
+   "room": "205",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "4-5A",
+      "5B-6"
+     ],
+     "time": "12:00~14:45",
+     "building": "12호관",
+     "room": "205"
+    }
+   ]
+  },
+  {
+   "id": "0007400001",
+   "name": "역사의창으로현대사회읽기",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "이상의",
+   "day": "목",
+   "time": "10:00~12:50",
+   "building": "12호관",
+   "room": "503",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "2",
+      "3",
+      "4"
+     ],
+     "time": "10:00~12:50",
+     "building": "12호관",
+     "room": "503"
+    }
+   ]
+  },
+  {
+   "id": "0009083001",
+   "name": "Language and Culture",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "조지민",
+   "day": "수",
+   "time": "09:00~11:50",
+   "building": "12호관",
+   "room": "406",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "12호관",
+     "room": "406"
+    }
+   ]
+  },
+  {
+   "id": "0009090001",
+   "name": "필독교양도서읽기1",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "김규환",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": false,
+   "schedule": []
+  },
+  {
+   "id": "0009091001",
+   "name": "필독교양도서읽기2",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "김규환",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": false,
+   "schedule": []
+  },
+  {
+   "id": "0009092001",
+   "name": "필독교양도서읽기3",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "김규환",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": false,
+   "schedule": []
+  },
+  {
+   "id": "0009324001",
+   "name": "공용어를활용한설명화법",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "김윤신",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 2,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0009328001",
+   "name": "야구와문학사이",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "하인혜",
+   "day": "월",
+   "time": "13:30~16:15",
+   "building": "12호관",
+   "room": "504",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "5B-6",
+      "7-8A"
+     ],
+     "time": "13:30~16:15",
+     "building": "12호관",
+     "room": "504"
+    }
+   ]
+  },
+  {
+   "id": "0009336001",
+   "name": "영상으로만나는중국",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "이정희",
+   "day": "화",
+   "time": "09:00~11:45",
+   "building": "12호관",
+   "room": "502",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "1-2A",
+      "2B-3"
+     ],
+     "time": "09:00~11:45",
+     "building": "12호관",
+     "room": "502"
+    }
+   ]
+  },
+  {
+   "id": "0009337001",
+   "name": "역사로만나는중국의문화코드",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "김지환",
+   "day": "화",
+   "time": "18:00~20:40",
+   "building": "12호관",
+   "room": "107",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "야1-2A",
+      "야2B-3"
+     ],
+     "time": "18:00~20:40",
+     "building": "12호관",
+     "room": "107"
+    }
+   ]
+  },
+  {
+   "id": "0009337002",
+   "name": "역사로만나는중국의문화코드",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "김지환",
+   "day": "화",
+   "time": "12:00~14:45",
+   "building": "12호관",
+   "room": "107",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "4-5A",
+      "5B-6"
+     ],
+     "time": "12:00~14:45",
+     "building": "12호관",
+     "room": "107"
+    }
+   ]
+  },
+  {
+   "id": "0009337003",
+   "name": "역사로만나는중국의문화코드",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "김지환",
+   "day": "월",
+   "time": "12:00~14:45",
+   "building": "12호관",
+   "room": "107",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "4-5A",
+      "5B-6"
+     ],
+     "time": "12:00~14:45",
+     "building": "12호관",
+     "room": "107"
+    }
+   ]
+  },
+  {
+   "id": "0009779001",
+   "name": "글로벌소양과문화콘텐츠",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "김윤신",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 2,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0009780001",
+   "name": "융복합시대의스피치커뮤니케이션",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "김평원",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 2,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0010138001",
+   "name": "젠더스터디와대중문화",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "노지승",
+   "day": "수",
+   "time": "10:30~13:15",
+   "building": "12호관",
+   "room": "506",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "2B-3",
+      "4-5A"
+     ],
+     "time": "10:30~13:15",
+     "building": "12호관",
+     "room": "506"
+    }
+   ]
+  },
+  {
+   "id": "0010142001",
+   "name": "문화콘텐츠스토리텔링분석",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "이태희",
+   "day": "수",
+   "time": "09:00~11:50",
+   "building": "12호관",
+   "room": "502",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "12호관",
+     "room": "502"
+    }
+   ]
+  },
+  {
+   "id": "0010146001",
+   "name": "취업을위한글쓰기와말하기",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "이승윤",
+   "day": "수",
+   "time": "09:00~11:50",
+   "building": "12호관",
+   "room": "507",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "12호관",
+     "room": "507"
+    }
+   ]
+  },
+  {
+   "id": "0010354001",
+   "name": "디지털세상의사이버윤리",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "김성우",
+   "day": "금",
+   "time": "09:00~11:50",
+   "building": "12호관",
+   "room": "407",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "12호관",
+     "room": "407"
+    }
+   ]
+  },
+  {
+   "id": "0010354002",
+   "name": "디지털세상의사이버윤리",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "김성우",
+   "day": "금",
+   "time": "13:00~15:50",
+   "building": "12호관",
+   "room": "407",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "5",
+      "6",
+      "7"
+     ],
+     "time": "13:00~15:50",
+     "building": "12호관",
+     "room": "407"
+    }
+   ]
+  },
+  {
+   "id": "0010356001",
+   "name": "종교와문화",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "정용택",
+   "day": "월",
+   "time": "10:00~12:50",
+   "building": "12호관",
+   "room": "403",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "2",
+      "3",
+      "4"
+     ],
+     "time": "10:00~12:50",
+     "building": "12호관",
+     "room": "403"
+    }
+   ]
+  },
+  {
+   "id": "0010356002",
+   "name": "종교와문화",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "정용택",
+   "day": "월",
+   "time": "14:00~16:50",
+   "building": "12호관",
+   "room": "403",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "6",
+      "7",
+      "8"
+     ],
+     "time": "14:00~16:50",
+     "building": "12호관",
+     "room": "403"
+    }
+   ]
+  },
+  {
+   "id": "0011235001",
+   "name": "서양의지혜와철학",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "송대현",
+   "day": "수",
+   "time": "15:00~17:45",
+   "building": "12호관",
+   "room": "501",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "12호관",
+     "room": "501"
+    }
+   ]
+  },
+  {
+   "id": "0011235002",
+   "name": "서양의지혜와철학",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "송대현",
+   "day": "월",
+   "time": "18:00~20:40",
+   "building": "12호관",
+   "room": "501",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "야1-2A",
+      "야2B-3"
+     ],
+     "time": "18:00~20:40",
+     "building": "12호관",
+     "room": "501"
+    }
+   ]
+  },
+  {
+   "id": "0011236001",
+   "name": "문화사로읽는삼국지",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "이은봉",
+   "day": "수",
+   "time": "14:00~16:50",
+   "building": "12호관",
+   "room": "504",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "6",
+      "7",
+      "8"
+     ],
+     "time": "14:00~16:50",
+     "building": "12호관",
+     "room": "504"
+    }
+   ]
+  },
+  {
+   "id": "0011238001",
+   "name": "소셜미디어시대의명상과수련",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "김윤경",
+   "day": "목",
+   "time": "12:00~14:45",
+   "building": "12호관",
+   "room": "203",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "4-5A",
+      "5B-6"
+     ],
+     "time": "12:00~14:45",
+     "building": "12호관",
+     "room": "203"
+    }
+   ]
+  },
+  {
+   "id": "0011239001",
+   "name": "한국전근대사의이해",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "신유아",
+   "day": "금",
+   "time": "13:30~16:15",
+   "building": "12호관",
+   "room": "203",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "5B-6",
+      "7-8A"
+     ],
+     "time": "13:30~16:15",
+     "building": "12호관",
+     "room": "203"
+    }
+   ]
+  },
+  {
+   "id": "0011619001",
+   "name": "역사초보자를위한한국사엿보기",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "교육혁신본부",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0011621001",
+   "name": "교과서에서만나지못한조선의역사",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "교육혁신본부",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0011622001",
+   "name": "K컬처와한국사상",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "교육혁신본부",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0011649001",
+   "name": "인문사회과학과텍스트마이닝",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "추교남",
+   "day": "수",
+   "time": "14:00~16:50",
+   "building": "12호관",
+   "room": "305",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "6",
+      "7",
+      "8"
+     ],
+     "time": "14:00~16:50",
+     "building": "12호관",
+     "room": "305"
+    }
+   ]
+  },
+  {
+   "id": "0011852001",
+   "name": "문화콘텐츠로보는우리역사",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "이형우",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0011859001",
+   "name": "취업을위한독서와토론",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "양현진",
+   "day": "수",
+   "time": "12:00~14:45",
+   "building": "12호관",
+   "room": "304",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "4-5A",
+      "5B-6"
+     ],
+     "time": "12:00~14:45",
+     "building": "12호관",
+     "room": "304"
+    }
+   ]
+  },
+  {
+   "id": "0011864001",
+   "name": "만화와웹툰의재구성",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "한상정",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0012515001",
+   "name": "케이컬처창작의기초와실제",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "전병준",
+   "day": "화",
+   "time": "15:00~17:45",
+   "building": "12호관",
+   "room": "506",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "12호관",
+     "room": "506"
+    }
+   ]
+  },
+  {
+   "id": "0012517001",
+   "name": "서브컬처로읽는현대문화",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "이운형",
+   "day": "목",
+   "time": "10:00~12:50",
+   "building": "12호관",
+   "room": "404",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "2",
+      "3",
+      "4"
+     ],
+     "time": "10:00~12:50",
+     "building": "12호관",
+     "room": "404"
+    }
+   ]
+  },
+  {
+   "id": "0012518001",
+   "name": "건축의역사와문화",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "신은기",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0012531001",
+   "name": "한국의역사와문화",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "권미경",
+   "day": "금",
+   "time": "09:00~11:50",
+   "building": "12호관",
+   "room": "507",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "12호관",
+     "room": "507"
+    }
+   ]
+  },
+  {
+   "id": "0012531002",
+   "name": "한국의역사와문화",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "권미경",
+   "day": "금",
+   "time": "13:00~15:50",
+   "building": "12호관",
+   "room": "507",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "5",
+      "6",
+      "7"
+     ],
+     "time": "13:00~15:50",
+     "building": "12호관",
+     "room": "507"
+    }
+   ]
+  },
+  {
+   "id": "0012539001",
+   "name": "K컨텐츠제작의실제",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "김민경",
+   "day": "금",
+   "time": "10:00~12:50",
+   "building": "12호관",
+   "room": "405",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "2",
+      "3",
+      "4"
+     ],
+     "time": "10:00~12:50",
+     "building": "12호관",
+     "room": "405"
+    }
+   ]
+  },
+  {
+   "id": "0012539002",
+   "name": "K컨텐츠제작의실제",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "김민경",
+   "day": "금",
+   "time": "13:00~15:50",
+   "building": "12호관",
+   "room": "405",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "5",
+      "6",
+      "7"
+     ],
+     "time": "13:00~15:50",
+     "building": "12호관",
+     "room": "405"
+    }
+   ]
+  },
+  {
+   "id": "0012546001",
+   "name": "영미문학의변신디지털시대의콘텐츠로",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "교육혁신본부",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0012553001",
+   "name": "문학의숲에서치유를만나다",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "전미정",
+   "day": "월",
+   "time": "10:00~12:50",
+   "building": "12호관",
+   "room": "501",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "2",
+      "3",
+      "4"
+     ],
+     "time": "10:00~12:50",
+     "building": "12호관",
+     "room": "501"
+    }
+   ]
+  },
+  {
+   "id": "0012553002",
+   "name": "문학의숲에서치유를만나다",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "전미정",
+   "day": "월",
+   "time": "13:30~16:15",
+   "building": "12호관",
+   "room": "501",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "5B-6",
+      "7-8A"
+     ],
+     "time": "13:30~16:15",
+     "building": "12호관",
+     "room": "501"
+    }
+   ]
+  },
+  {
+   "id": "0012555001",
+   "name": "뉴스영어통역워크숍",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "박효진",
+   "day": "수",
+   "time": "14:00~15:50",
+   "building": "12호관",
+   "room": "401",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "6",
+      "7"
+     ],
+     "time": "14:00~15:50",
+     "building": "12호관",
+     "room": "401"
+    }
+   ]
+  },
+  {
+   "id": "O810241001",
+   "name": "임상여성학",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "OCU",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": false,
+   "schedule": []
+  },
+  {
+   "id": "O810410001",
+   "name": "문학과테마기행",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "OCU",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": false,
+   "schedule": []
+  },
+  {
+   "id": "XAA1430001",
+   "name": "프랑스문화와예술",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "김영은",
+   "day": "금",
+   "time": "13:00~15:50",
+   "building": "12호관",
+   "room": "503",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "5",
+      "6",
+      "7"
+     ],
+     "time": "13:00~15:50",
+     "building": "12호관",
+     "room": "503"
+    }
+   ]
+  },
+  {
+   "id": "XAA8044001",
+   "name": "일본문화의이해",
+   "category": "심화교양·인문",
+   "description": null,
+   "professor": "박진한",
+   "day": "화",
+   "time": "13:30~16:15",
+   "building": "12호관",
+   "room": "505",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "5B-6",
+      "7-8A"
+     ],
+     "time": "13:30~16:15",
+     "building": "12호관",
+     "room": "505"
+    }
+   ]
+  },
+  {
+   "id": "0002649001",
+   "name": "현대사회와사회복지",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "정선영",
+   "day": "목",
+   "time": "12:00~14:45",
+   "building": "12호관",
+   "room": "505",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "4-5A",
+      "5B-6"
+     ],
+     "time": "12:00~14:45",
+     "building": "12호관",
+     "room": "505"
+    }
+   ]
+  },
+  {
+   "id": "0004342001",
+   "name": "이슬람세계의이해",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "김효정",
+   "day": "월",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "303",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "303"
+    }
+   ]
+  },
+  {
+   "id": "0004342002",
+   "name": "이슬람세계의이해",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "김효정",
+   "day": "월",
+   "time": "18:00~20:40",
+   "building": "12호관",
+   "room": "303",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "야1",
+      "야2",
+      "야3"
+     ],
+     "time": "18:00~20:40",
+     "building": "12호관",
+     "room": "303"
+    }
+   ]
+  },
+  {
+   "id": "0004344001",
+   "name": "한국사회의사회과학적이해",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "김민정",
+   "day": "수",
+   "time": "18:00~20:40",
+   "building": "12호관",
+   "room": "203",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "야1",
+      "야2",
+      "야3"
+     ],
+     "time": "18:00~20:40",
+     "building": "12호관",
+     "room": "203"
+    }
+   ]
+  },
+  {
+   "id": "0005070001",
+   "name": "OTL론",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "서진완",
+   "day": "화",
+   "time": "13:30~16:15",
+   "building": "12호관",
+   "room": "502",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "5B-6",
+      "7-8A"
+     ],
+     "time": "13:30~16:15",
+     "building": "12호관",
+     "room": "502"
+    }
+   ]
+  },
+  {
+   "id": "0005073001",
+   "name": "회계원리와세무의이해",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "홍기용",
+   "day": "수",
+   "time": "15:00~17:45",
+   "building": "14호관",
+   "room": "103",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "14호관",
+     "room": "103"
+    }
+   ]
+  },
+  {
+   "id": "0005075001",
+   "name": "법과문학",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "김영진",
+   "day": "화",
+   "time": "12:00~14:45",
+   "building": "15호관",
+   "room": "201",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "4-5A",
+      "5B-6"
+     ],
+     "time": "12:00~14:45",
+     "building": "15호관",
+     "room": "201"
+    }
+   ]
+  },
+  {
+   "id": "0005093001",
+   "name": "결혼과가족",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "류민영",
+   "day": "화",
+   "time": "12:00~14:50",
+   "building": "12호관",
+   "room": "303",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "12호관",
+     "room": "303"
+    }
+   ]
+  },
+  {
+   "id": "0005093002",
+   "name": "결혼과가족",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "류민영",
+   "day": "화",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "303",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "303"
+    }
+   ]
+  },
+  {
+   "id": "0005103001",
+   "name": "기업가정신",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "창업지원단",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0006989001",
+   "name": "혁신과창업",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "창업지원단",
+   "day": "화",
+   "time": "09:00~11:50",
+   "building": "9호관",
+   "room": "509",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "9호관",
+     "room": "509"
+    }
+   ]
+  },
+  {
+   "id": "0007001001",
+   "name": "미래사회이해와미래예측",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "오형석",
+   "day": "수",
+   "time": "14:00~16:50",
+   "building": "12호관",
+   "room": "404",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "6",
+      "7",
+      "8"
+     ],
+     "time": "14:00~16:50",
+     "building": "12호관",
+     "room": "404"
+    }
+   ]
+  },
+  {
+   "id": "0007001002",
+   "name": "미래사회이해와미래예측",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "오형석",
+   "day": "수",
+   "time": "18:00~20:40",
+   "building": "12호관",
+   "room": "404",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "야1",
+      "야2",
+      "야3"
+     ],
+     "time": "18:00~20:40",
+     "building": "12호관",
+     "room": "404"
+    }
+   ]
+  },
+  {
+   "id": "0007366001",
+   "name": "배움특강",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "학생취업처",
+   "day": "수",
+   "time": "16:00~17:50",
+   "building": "11호관",
+   "room": "208",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "8",
+      "9"
+     ],
+     "time": "16:00~17:50",
+     "building": "11호관",
+     "room": "208"
+    }
+   ]
+  },
+  {
+   "id": "0008590001",
+   "name": "스타트업소셜벤처",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "창업지원단",
+   "day": "금",
+   "time": "12:00~14:50",
+   "building": "9호관",
+   "room": "509",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "9호관",
+     "room": "509"
+    }
+   ]
+  },
+  {
+   "id": "0008628001",
+   "name": "한국사회의발전과변동이해",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "김민정",
+   "day": "수",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "203",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "203"
+    }
+   ]
+  },
+  {
+   "id": "0009334001",
+   "name": "국제질서의변화와한국의대응",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "송윤진",
+   "day": "금",
+   "time": "14:00~16:50",
+   "building": "12호관",
+   "room": "504",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "6",
+      "7",
+      "8"
+     ],
+     "time": "14:00~16:50",
+     "building": "12호관",
+     "room": "504"
+    }
+   ]
+  },
+  {
+   "id": "0010355001",
+   "name": "생활속의경제원리",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "오경희",
+   "day": "월",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "205",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "205"
+    }
+   ]
+  },
+  {
+   "id": "0010355002",
+   "name": "생활속의경제원리",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "오경희",
+   "day": "월",
+   "time": "12:00~14:50",
+   "building": "12호관",
+   "room": "205",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "12호관",
+     "room": "205"
+    }
+   ]
+  },
+  {
+   "id": "0010635001",
+   "name": "한반도와유라시아",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "조형진",
+   "day": "수",
+   "time": "13:30~16:15",
+   "building": "12호관",
+   "room": "101",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "5B-6",
+      "7-8A"
+     ],
+     "time": "13:30~16:15",
+     "building": "12호관",
+     "room": "101"
+    }
+   ]
+  },
+  {
+   "id": "0010640001",
+   "name": "지식나눔과사회공헌",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "이영수",
+   "day": "화",
+   "time": "18:55~20:40",
+   "building": "12호관",
+   "room": "101",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "야2",
+      "야3"
+     ],
+     "time": "18:55~20:40",
+     "building": "12호관",
+     "room": "101"
+    }
+   ]
+  },
+  {
+   "id": "0011618001",
+   "name": "사회적경제기업가의경영전략",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "교육혁신본부",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0011620001",
+   "name": "삶과경력개발",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "교육혁신본부",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0011625001",
+   "name": "실생활에서만나는경영의사결정",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "교육혁신본부",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0011626001",
+   "name": "인공지능시대의의사소통역량교육",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "교육혁신본부",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0011634001",
+   "name": "소비자와돈그리고신용",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "조혜진",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0011635001",
+   "name": "디지털미디어로보는무역과통상",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "고보민",
+   "day": "목",
+   "time": "13:00~15:50",
+   "building": "12호관",
+   "room": "107",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "5",
+      "6",
+      "7"
+     ],
+     "time": "13:00~15:50",
+     "building": "12호관",
+     "room": "107"
+    }
+   ]
+  },
+  {
+   "id": "0011643001",
+   "name": "나로부터시작하는사회공헌",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "이영수",
+   "day": "목",
+   "time": "18:55~20:40",
+   "building": "12호관",
+   "room": "101",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "야2",
+      "야3"
+     ],
+     "time": "18:55~20:40",
+     "building": "12호관",
+     "room": "101"
+    }
+   ]
+  },
+  {
+   "id": "0011847001",
+   "name": "미디어똑바로보기",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "안호림",
+   "day": "화",
+   "time": "15:00~17:45",
+   "building": "12호관",
+   "room": "203",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "12호관",
+     "room": "203"
+    }
+   ]
+  },
+  {
+   "id": "0011858001",
+   "name": "인공지능시대의미디어교육",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "교육혁신본부",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0011865001",
+   "name": "인공지능시대의스피치교육",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "교육혁신본부",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0011866001",
+   "name": "디지털기반커뮤니케이션역량강화",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "김평원",
+   "day": "금",
+   "time": "16:00~17:50",
+   "building": "NC",
+   "room": "205",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "8",
+      "9"
+     ],
+     "time": "16:00~17:50",
+     "building": "NC",
+     "room": "205"
+    }
+   ]
+  },
+  {
+   "id": "0012520001",
+   "name": "맛있는경제학",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "이장연",
+   "day": "월·수",
+   "time": "10:30~11:45",
+   "building": "12호관",
+   "room": "505",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "2B-3"
+     ],
+     "time": "10:30~11:45",
+     "building": "12호관",
+     "room": "505"
+    },
+    {
+     "day": "수",
+     "periods": [
+      "2B-3"
+     ],
+     "time": "10:30~11:45",
+     "building": "12호관",
+     "room": "505"
+    }
+   ]
+  },
+  {
+   "id": "0012521001",
+   "name": "나만의AI에이전트제작",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "김성연",
+   "day": "화",
+   "time": "15:00~17:45",
+   "building": "4호관",
+   "room": "105",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "4호관",
+     "room": "105"
+    }
+   ]
+  },
+  {
+   "id": "0012547001",
+   "name": "사회문제해결을위한공공데이터활용역량강화",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "교육혁신본부",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0012556001",
+   "name": "성격과인간심리의이해",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "서신화",
+   "day": "월",
+   "time": "15:00~17:45",
+   "building": "12호관",
+   "room": "203",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "12호관",
+     "room": "203"
+    }
+   ]
+  },
+  {
+   "id": "0012558001",
+   "name": "식탁에서만나는문화와세계시민성",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "정은주",
+   "day": "화",
+   "time": "12:00~14:45",
+   "building": "12호관",
+   "room": "108",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "4-5A",
+      "5B-6"
+     ],
+     "time": "12:00~14:45",
+     "building": "12호관",
+     "room": "108"
+    }
+   ]
+  },
+  {
+   "id": "O810301001",
+   "name": "힌두교와인도문화",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "OCU",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": false,
+   "schedule": []
+  },
+  {
+   "id": "O810554001",
+   "name": "인문학과자기경영의만남",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "OCU",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": false,
+   "schedule": []
+  },
+  {
+   "id": "XAA1133001",
+   "name": "생활법률",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "이윤희",
+   "day": "목",
+   "time": "12:00~14:50",
+   "building": "15호관",
+   "room": "201",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "15호관",
+     "room": "201"
+    }
+   ]
+  },
+  {
+   "id": "XAA1133002",
+   "name": "생활법률",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "이윤희",
+   "day": "목",
+   "time": "15:00~17:50",
+   "building": "15호관",
+   "room": "201",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "15호관",
+     "room": "201"
+    }
+   ]
+  },
+  {
+   "id": "XAA1375001",
+   "name": "행정학의이해",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "김동원",
+   "day": "금",
+   "time": "13:30~16:15",
+   "building": "12호관",
+   "room": "107",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "5B-6",
+      "7-8A"
+     ],
+     "time": "13:30~16:15",
+     "building": "12호관",
+     "room": "107"
+    }
+   ]
+  },
+  {
+   "id": "XAA2018001",
+   "name": "영화속법",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "이충훈",
+   "day": "월",
+   "time": "15:00~17:45",
+   "building": "15호관",
+   "room": "201",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "15호관",
+     "room": "201"
+    }
+   ]
+  },
+  {
+   "id": "XAA8057001",
+   "name": "물류의이해",
+   "category": "심화교양·사회",
+   "description": null,
+   "professor": "김우중",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0002646001",
+   "name": "인간과우주",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "정연철",
+   "day": "월",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "502",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "502"
+    }
+   ]
+  },
+  {
+   "id": "0002646002",
+   "name": "인간과우주",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "정연철",
+   "day": "월",
+   "time": "18:00~20:40",
+   "building": "12호관",
+   "room": "502",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "야1",
+      "야2",
+      "야3"
+     ],
+     "time": "18:00~20:40",
+     "building": "12호관",
+     "room": "502"
+    }
+   ]
+  },
+  {
+   "id": "0002647001",
+   "name": "녹색성장과환경",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "박찬진",
+   "day": "수",
+   "time": "13:30~16:15",
+   "building": "12호관",
+   "room": "107",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "5B-6",
+      "7-8A"
+     ],
+     "time": "13:30~16:15",
+     "building": "12호관",
+     "room": "107"
+    }
+   ]
+  },
+  {
+   "id": "0004327001",
+   "name": "물의위기와환경",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "이민수",
+   "day": "금",
+   "time": "11:00~13:50",
+   "building": "12호관",
+   "room": "108",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "3",
+      "4",
+      "5"
+     ],
+     "time": "11:00~13:50",
+     "building": "12호관",
+     "room": "108"
+    }
+   ]
+  },
+  {
+   "id": "0004327002",
+   "name": "물의위기와환경",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "이민수",
+   "day": "금",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "108",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "108"
+    }
+   ]
+  },
+  {
+   "id": "0006109001",
+   "name": "대중매체속바이오테크놀로지",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "예정용",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0006987001",
+   "name": "신비로운해양생물이야기",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "이재성",
+   "day": "화",
+   "time": "10:00~12:50",
+   "building": "5호관",
+   "room": "335",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "2",
+      "3",
+      "4"
+     ],
+     "time": "10:00~12:50",
+     "building": "5호관",
+     "room": "335"
+    }
+   ]
+  },
+  {
+   "id": "0007360001",
+   "name": "문화예술로배우는생명의기원",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "예정용",
+   "day": "목",
+   "time": "09:00~11:50",
+   "building": "12호관",
+   "room": "105",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "12호관",
+     "room": "105"
+    }
+   ]
+  },
+  {
+   "id": "0009319001",
+   "name": "공학자정약용의이해",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "전광길",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0009319002",
+   "name": "공학자정약용의이해",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "전광길",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0010140001",
+   "name": "뇌과학의이해",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "신경순",
+   "day": "금",
+   "time": "10:00~11:50",
+   "building": "12호관",
+   "room": "303",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "2",
+      "3"
+     ],
+     "time": "10:00~11:50",
+     "building": "12호관",
+     "room": "303"
+    }
+   ]
+  },
+  {
+   "id": "0010140002",
+   "name": "뇌과학의이해",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "신경순",
+   "day": "금",
+   "time": "13:00~14:50",
+   "building": "12호관",
+   "room": "303",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "5",
+      "6"
+     ],
+     "time": "13:00~14:50",
+     "building": "12호관",
+     "room": "303"
+    }
+   ]
+  },
+  {
+   "id": "0010352001",
+   "name": "경이로운생명이야기",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "윤영준",
+   "day": "목",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "101",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "101"
+    }
+   ]
+  },
+  {
+   "id": "0010352002",
+   "name": "경이로운생명이야기",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "윤영준",
+   "day": "목",
+   "time": "12:00~14:50",
+   "building": "12호관",
+   "room": "101",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "12호관",
+     "room": "101"
+    }
+   ]
+  },
+  {
+   "id": "0010353001",
+   "name": "우리가살고있는신비한지구",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "최윤성",
+   "day": "금",
+   "time": "10:00~12:50",
+   "building": "12호관",
+   "room": "505",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "2",
+      "3",
+      "4"
+     ],
+     "time": "10:00~12:50",
+     "building": "12호관",
+     "room": "505"
+    }
+   ]
+  },
+  {
+   "id": "0010353002",
+   "name": "우리가살고있는신비한지구",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "최윤성",
+   "day": "금",
+   "time": "13:00~15:50",
+   "building": "12호관",
+   "room": "505",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "5",
+      "6",
+      "7"
+     ],
+     "time": "13:00~15:50",
+     "building": "12호관",
+     "room": "505"
+    }
+   ]
+  },
+  {
+   "id": "0011617001",
+   "name": "엔지니어정약용탐구",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "교육혁신본부",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0011623001",
+   "name": "3D모션캡쳐와관련기술의적용",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "교육혁신본부",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0011624001",
+   "name": "미생물학입문",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "교육혁신본부",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 1,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0011653001",
+   "name": "영화로배우는독성학개론",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "예정용",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0011842001",
+   "name": "디지털시대의모바일앱만들기",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "박승진",
+   "day": "수",
+   "time": "15:00~17:45",
+   "building": "4호관",
+   "room": "105",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "4호관",
+     "room": "105"
+    }
+   ]
+  },
+  {
+   "id": "0012523001",
+   "name": "수학과AI로보는세상",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "이승재",
+   "day": "수·목",
+   "time": "15:00~16:15 / 10:30~11:45",
+   "building": "5호관",
+   "room": "104A",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "7-8A"
+     ],
+     "time": "15:00~16:15",
+     "building": "5호관",
+     "room": "104A"
+    },
+    {
+     "day": "목",
+     "periods": [
+      "2B-3"
+     ],
+     "time": "10:30~11:45",
+     "building": "5호관",
+     "room": "104A"
+    }
+   ]
+  },
+  {
+   "id": "0012528001",
+   "name": "AI코딩을활용한창의적앱개발",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "추교남",
+   "day": "목",
+   "time": "14:00~16:50",
+   "building": "12호관",
+   "room": "305",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "6",
+      "7",
+      "8"
+     ],
+     "time": "14:00~16:50",
+     "building": "12호관",
+     "room": "305"
+    }
+   ]
+  },
+  {
+   "id": "0012532001",
+   "name": "과학기술사",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "정연철",
+   "day": "월",
+   "time": "12:00~14:50",
+   "building": "12호관",
+   "room": "502",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "12호관",
+     "room": "502"
+    }
+   ]
+  },
+  {
+   "id": "0012549001",
+   "name": "노코드AI데이터분석실무",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "이선아",
+   "day": "목",
+   "time": "10:00~12:50",
+   "building": "12호관",
+   "room": "302",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "2",
+      "3",
+      "4"
+     ],
+     "time": "10:00~12:50",
+     "building": "12호관",
+     "room": "302"
+    }
+   ]
+  },
+  {
+   "id": "0012559001",
+   "name": "AI로쉽게배우는R통계",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "김성연",
+   "day": "금",
+   "time": "15:00~17:45",
+   "building": "4호관",
+   "room": "105",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "4호관",
+     "room": "105"
+    }
+   ]
+  },
+  {
+   "id": "O810280001",
+   "name": "생활속의안전",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "OCU",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": false,
+   "schedule": []
+  },
+  {
+   "id": "O810558001",
+   "name": "컴퓨터보안과활용",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "OCU",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": false,
+   "schedule": []
+  },
+  {
+   "id": "O810709001",
+   "name": "모두의인공지능",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "OCU",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": false,
+   "schedule": []
+  },
+  {
+   "id": "O810710001",
+   "name": "4차산업혁명기술과자동차이야기",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "OCU",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": false,
+   "schedule": []
+  },
+  {
+   "id": "O820057001",
+   "name": "예제로배우는C언어",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "OCU",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": false,
+   "schedule": []
+  },
+  {
+   "id": "XAA2026001",
+   "name": "공학윤리",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "김철홍",
+   "day": "화",
+   "time": "15:00~17:45",
+   "building": "8호관",
+   "room": "479",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "7-8A",
+      "8B-9"
+     ],
+     "time": "15:00~17:45",
+     "building": "8호관",
+     "room": "479"
+    }
+   ]
+  },
+  {
+   "id": "XAA2026002",
+   "name": "공학윤리",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "김철홍",
+   "day": "수",
+   "time": "13:30~16:15",
+   "building": "8호관",
+   "room": "502",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "5B-6",
+      "7-8A"
+     ],
+     "time": "13:30~16:15",
+     "building": "8호관",
+     "room": "502"
+    }
+   ]
+  },
+  {
+   "id": "XAA2026003",
+   "name": "공학윤리",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "이주경",
+   "day": "금",
+   "time": "12:00~14:45",
+   "building": "15호관",
+   "room": "201",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "4-5A",
+      "5B-6"
+     ],
+     "time": "12:00~14:45",
+     "building": "15호관",
+     "room": "201"
+    }
+   ]
+  },
+  {
+   "id": "XAA2026004",
+   "name": "공학윤리",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "이주경",
+   "day": "금",
+   "time": "09:00~11:45",
+   "building": "15호관",
+   "room": "201",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "1-2A",
+      "2B-3"
+     ],
+     "time": "09:00~11:45",
+     "building": "15호관",
+     "room": "201"
+    }
+   ]
+  },
+  {
+   "id": "XAA2047001",
+   "name": "비즈니스소프트웨어",
+   "category": "심화교양·과학기술",
+   "description": null,
+   "professor": "박승진",
+   "day": "수",
+   "time": "12:00~14:45",
+   "building": "4호관",
+   "room": "105",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "4-5A",
+      "5B-6"
+     ],
+     "time": "12:00~14:45",
+     "building": "4호관",
+     "room": "105"
+    }
+   ]
+  },
+  {
+   "id": "0003597001",
+   "name": "SPORTS CLIMBING",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김인경",
+   "day": "화",
+   "time": "10:00~11:50",
+   "building": "12호관",
+   "room": "507",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "2",
+      "3"
+     ],
+     "time": "10:00~11:50",
+     "building": "12호관",
+     "room": "507"
+    }
+   ]
+  },
+  {
+   "id": "0003597002",
+   "name": "SPORTS CLIMBING",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김인경",
+   "day": "화",
+   "time": "13:00~14:50",
+   "building": "12호관",
+   "room": "507",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "5",
+      "6"
+     ],
+     "time": "13:00~14:50",
+     "building": "12호관",
+     "room": "507"
+    }
+   ]
+  },
+  {
+   "id": "0003597003",
+   "name": "SPORTS CLIMBING",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김인경",
+   "day": "화",
+   "time": "15:00~16:50",
+   "building": "12호관",
+   "room": "507",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "7",
+      "8"
+     ],
+     "time": "15:00~16:50",
+     "building": "12호관",
+     "room": "507"
+    }
+   ]
+  },
+  {
+   "id": "0003598001",
+   "name": "GOLF",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "이세원",
+   "day": "목",
+   "time": "11:00~12:50",
+   "building": "20호관",
+   "room": "211",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "3",
+      "4"
+     ],
+     "time": "11:00~12:50",
+     "building": "20호관",
+     "room": "211"
+    }
+   ]
+  },
+  {
+   "id": "0003598002",
+   "name": "GOLF",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "이세원",
+   "day": "화",
+   "time": "15:00~16:50",
+   "building": "20호관",
+   "room": "211",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "7",
+      "8"
+     ],
+     "time": "15:00~16:50",
+     "building": "20호관",
+     "room": "211"
+    }
+   ]
+  },
+  {
+   "id": "0005417001",
+   "name": "예술과친구하기",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "이계원",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 2,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0006407001",
+   "name": "연극의이해",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "구태환",
+   "day": "수",
+   "time": "09:00~11:45",
+   "building": "12호관",
+   "room": "501",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "1-2A",
+      "2B-3"
+     ],
+     "time": "09:00~11:45",
+     "building": "12호관",
+     "room": "501"
+    }
+   ]
+  },
+  {
+   "id": "0008606001",
+   "name": "연극예술과문화생활",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "박근수",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 2,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0008607001",
+   "name": "무대미술의이해",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "임일진",
+   "day": "목",
+   "time": "10:30~13:15",
+   "building": "12호관",
+   "room": "103",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "2B-3",
+      "4-5A"
+     ],
+     "time": "10:30~13:15",
+     "building": "12호관",
+     "room": "103"
+    }
+   ]
+  },
+  {
+   "id": "0009089001",
+   "name": "Introduction to Film and Media Studies",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "조지민",
+   "day": "수",
+   "time": "14:00~16:50",
+   "building": "12호관",
+   "room": "406",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "6",
+      "7",
+      "8"
+     ],
+     "time": "14:00~16:50",
+     "building": "12호관",
+     "room": "406"
+    }
+   ]
+  },
+  {
+   "id": "0009775001",
+   "name": "StepbyStep피아노",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김준희",
+   "day": "수",
+   "time": "12:00~13:50",
+   "building": "12호관",
+   "room": "306",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "4",
+      "5"
+     ],
+     "time": "12:00~13:50",
+     "building": "12호관",
+     "room": "306"
+    }
+   ]
+  },
+  {
+   "id": "0009775002",
+   "name": "StepbyStep피아노",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김준희",
+   "day": "수",
+   "time": "16:00~17:50",
+   "building": "12호관",
+   "room": "306",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "8",
+      "9"
+     ],
+     "time": "16:00~17:50",
+     "building": "12호관",
+     "room": "306"
+    }
+   ]
+  },
+  {
+   "id": "0009775003",
+   "name": "StepbyStep피아노",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "최정윤",
+   "day": "금",
+   "time": "09:00~10:50",
+   "building": "12호관",
+   "room": "306",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "1",
+      "2"
+     ],
+     "time": "09:00~10:50",
+     "building": "12호관",
+     "room": "306"
+    }
+   ]
+  },
+  {
+   "id": "0009775004",
+   "name": "StepbyStep피아노",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "최정윤",
+   "day": "금",
+   "time": "11:00~12:50",
+   "building": "12호관",
+   "room": "306",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "3",
+      "4"
+     ],
+     "time": "11:00~12:50",
+     "building": "12호관",
+     "room": "306"
+    }
+   ]
+  },
+  {
+   "id": "0009775005",
+   "name": "StepbyStep피아노",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "허자현",
+   "day": "화",
+   "time": "10:00~11:50",
+   "building": "12호관",
+   "room": "306",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "2",
+      "3"
+     ],
+     "time": "10:00~11:50",
+     "building": "12호관",
+     "room": "306"
+    }
+   ]
+  },
+  {
+   "id": "0009775006",
+   "name": "StepbyStep피아노",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "허자현",
+   "day": "화",
+   "time": "12:00~13:50",
+   "building": "12호관",
+   "room": "306",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "4",
+      "5"
+     ],
+     "time": "12:00~13:50",
+     "building": "12호관",
+     "room": "306"
+    }
+   ]
+  },
+  {
+   "id": "0009776001",
+   "name": "피아노능숙하게다루기",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김준희",
+   "day": "수",
+   "time": "14:00~15:50",
+   "building": "12호관",
+   "room": "306",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "6",
+      "7"
+     ],
+     "time": "14:00~15:50",
+     "building": "12호관",
+     "room": "306"
+    }
+   ]
+  },
+  {
+   "id": "0009776002",
+   "name": "피아노능숙하게다루기",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "최정윤",
+   "day": "금",
+   "time": "13:00~14:50",
+   "building": "12호관",
+   "room": "306",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "5",
+      "6"
+     ],
+     "time": "13:00~14:50",
+     "building": "12호관",
+     "room": "306"
+    }
+   ]
+  },
+  {
+   "id": "0009777001",
+   "name": "처음하는기타연주",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김현승",
+   "day": "수",
+   "time": "12:00~13:50",
+   "building": "12호관",
+   "room": "307",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "4",
+      "5"
+     ],
+     "time": "12:00~13:50",
+     "building": "12호관",
+     "room": "307"
+    }
+   ]
+  },
+  {
+   "id": "0009777002",
+   "name": "처음하는기타연주",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김현승",
+   "day": "수",
+   "time": "14:00~15:50",
+   "building": "12호관",
+   "room": "307",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "6",
+      "7"
+     ],
+     "time": "14:00~15:50",
+     "building": "12호관",
+     "room": "307"
+    }
+   ]
+  },
+  {
+   "id": "0009777003",
+   "name": "처음하는기타연주",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김현승",
+   "day": "수",
+   "time": "16:00~17:50",
+   "building": "12호관",
+   "room": "307",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "8",
+      "9"
+     ],
+     "time": "16:00~17:50",
+     "building": "12호관",
+     "room": "307"
+    }
+   ]
+  },
+  {
+   "id": "0009777004",
+   "name": "처음하는기타연주",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "권정구",
+   "day": "목",
+   "time": "11:00~12:50",
+   "building": "12호관",
+   "room": "307",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "3",
+      "4"
+     ],
+     "time": "11:00~12:50",
+     "building": "12호관",
+     "room": "307"
+    }
+   ]
+  },
+  {
+   "id": "0009777005",
+   "name": "처음하는기타연주",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "권정구",
+   "day": "목",
+   "time": "13:00~14:50",
+   "building": "12호관",
+   "room": "307",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "5",
+      "6"
+     ],
+     "time": "13:00~14:50",
+     "building": "12호관",
+     "room": "307"
+    }
+   ]
+  },
+  {
+   "id": "0009777006",
+   "name": "처음하는기타연주",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "조예리",
+   "day": "화",
+   "time": "14:00~15:50",
+   "building": "12호관",
+   "room": "307",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "6",
+      "7"
+     ],
+     "time": "14:00~15:50",
+     "building": "12호관",
+     "room": "307"
+    }
+   ]
+  },
+  {
+   "id": "0009777007",
+   "name": "처음하는기타연주",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "조예리",
+   "day": "화",
+   "time": "16:00~17:50",
+   "building": "12호관",
+   "room": "307",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "8",
+      "9"
+     ],
+     "time": "16:00~17:50",
+     "building": "12호관",
+     "room": "307"
+    }
+   ]
+  },
+  {
+   "id": "0009778001",
+   "name": "기타연주엘리트입문",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "권정구",
+   "day": "목",
+   "time": "15:00~16:50",
+   "building": "12호관",
+   "room": "307",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "7",
+      "8"
+     ],
+     "time": "15:00~16:50",
+     "building": "12호관",
+     "room": "307"
+    }
+   ]
+  },
+  {
+   "id": "0009778002",
+   "name": "기타연주엘리트입문",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "조예리",
+   "day": "화",
+   "time": "18:00~19:45",
+   "building": "12호관",
+   "room": "307",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "야1",
+      "야2"
+     ],
+     "time": "18:00~19:45",
+     "building": "12호관",
+     "room": "307"
+    }
+   ]
+  },
+  {
+   "id": "0010137001",
+   "name": "영화예술과문화생활",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "박근수",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 2,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0010357001",
+   "name": "스토리텔링뮤직",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김규",
+   "day": "수",
+   "time": "12:00~14:50",
+   "building": "15호관",
+   "room": "201",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "15호관",
+     "room": "201"
+    }
+   ]
+  },
+  {
+   "id": "0010357002",
+   "name": "스토리텔링뮤직",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김규",
+   "day": "수",
+   "time": "15:00~17:50",
+   "building": "15호관",
+   "room": "201",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "15호관",
+     "room": "201"
+    }
+   ]
+  },
+  {
+   "id": "0011629001",
+   "name": "음악과사회",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김희진",
+   "day": "화",
+   "time": "13:00~15:50",
+   "building": "12호관",
+   "room": "504",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "5",
+      "6",
+      "7"
+     ],
+     "time": "13:00~15:50",
+     "building": "12호관",
+     "room": "504"
+    }
+   ]
+  },
+  {
+   "id": "0011843001",
+   "name": "신체건강솔루션",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "전경규",
+   "day": "수",
+   "time": "16:00~17:50",
+   "building": "20호관",
+   "room": "106",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "8",
+      "9"
+     ],
+     "time": "16:00~17:50",
+     "building": "20호관",
+     "room": "106"
+    }
+   ]
+  },
+  {
+   "id": "0011854001",
+   "name": "스포츠로이해하는개념",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "윤기준",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": true,
+   "schedule": []
+  },
+  {
+   "id": "0011855001",
+   "name": "초급자유형",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김민철",
+   "day": "수",
+   "time": "11:00~12:50",
+   "building": "20호관",
+   "room": "110",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "3",
+      "4"
+     ],
+     "time": "11:00~12:50",
+     "building": "20호관",
+     "room": "110"
+    }
+   ]
+  },
+  {
+   "id": "0011856001",
+   "name": "소도구필라테스체형교정",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "양명주",
+   "day": "수",
+   "time": "11:00~12:50",
+   "building": "20호관",
+   "room": "205",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "3",
+      "4"
+     ],
+     "time": "11:00~12:50",
+     "building": "20호관",
+     "room": "205"
+    }
+   ]
+  },
+  {
+   "id": "0011856002",
+   "name": "소도구필라테스체형교정",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "양명주",
+   "day": "수",
+   "time": "13:00~14:50",
+   "building": "20호관",
+   "room": "205",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "5",
+      "6"
+     ],
+     "time": "13:00~14:50",
+     "building": "20호관",
+     "room": "205"
+    }
+   ]
+  },
+  {
+   "id": "0011857001",
+   "name": "음악으로읽는세계문화사",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김희진",
+   "day": "화",
+   "time": "09:00~11:50",
+   "building": "12호관",
+   "room": "504",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "12호관",
+     "room": "504"
+    }
+   ]
+  },
+  {
+   "id": "0011860001",
+   "name": "요가와명상",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "하지혜",
+   "day": "월",
+   "time": "10:00~11:50",
+   "building": "20호관",
+   "room": "105",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "2",
+      "3"
+     ],
+     "time": "10:00~11:50",
+     "building": "20호관",
+     "room": "105"
+    }
+   ]
+  },
+  {
+   "id": "0011860002",
+   "name": "요가와명상",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "하지혜",
+   "day": "월",
+   "time": "12:00~13:50",
+   "building": "20호관",
+   "room": "105",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "4",
+      "5"
+     ],
+     "time": "12:00~13:50",
+     "building": "20호관",
+     "room": "105"
+    }
+   ]
+  },
+  {
+   "id": "0012524001",
+   "name": "공연예술감상의네가지시선감상에서체험까지",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "정지호",
+   "day": "수",
+   "time": "10:30~13:15",
+   "building": "12호관",
+   "room": "107",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "2B-3",
+      "4-5A"
+     ],
+     "time": "10:30~13:15",
+     "building": "12호관",
+     "room": "107"
+    }
+   ]
+  },
+  {
+   "id": "0012526001",
+   "name": "건강라이프탁구",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "유창완",
+   "day": "화",
+   "time": "14:00~15:50",
+   "building": "21호관",
+   "room": "207",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "6",
+      "7"
+     ],
+     "time": "14:00~15:50",
+     "building": "21호관",
+     "room": "207"
+    }
+   ]
+  },
+  {
+   "id": "0012527001",
+   "name": "오페라와뮤지컬인문학여행",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김상림",
+   "day": "금",
+   "time": "10:00~12:50",
+   "building": "12호관",
+   "room": "103",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "2",
+      "3",
+      "4"
+     ],
+     "time": "10:00~12:50",
+     "building": "12호관",
+     "room": "103"
+    }
+   ]
+  },
+  {
+   "id": "0012533001",
+   "name": "실용음악이론과실습",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "최정윤",
+   "day": "금",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "306",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "306"
+    }
+   ]
+  },
+  {
+   "id": "0012534001",
+   "name": "클래식음악입문",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김준희",
+   "day": "수",
+   "time": "09:00~11:50",
+   "building": "12호관",
+   "room": "108",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "12호관",
+     "room": "108"
+    }
+   ]
+  },
+  {
+   "id": "0012535001",
+   "name": "음악과스토리텔링으로읽는글로벌KCulture",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김규",
+   "day": "금",
+   "time": "09:00~11:50",
+   "building": "12호관",
+   "room": "404",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "12호관",
+     "room": "404"
+    }
+   ]
+  },
+  {
+   "id": "0012536001",
+   "name": "케이뮤직의이해와기타연주",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "권정구",
+   "day": "목",
+   "time": "18:00~20:40",
+   "building": "12호관",
+   "room": "307",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "야1",
+      "야2",
+      "야3"
+     ],
+     "time": "18:00~20:40",
+     "building": "12호관",
+     "room": "307"
+    }
+   ]
+  },
+  {
+   "id": "0012541001",
+   "name": "한국화기초실기",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "송윤주",
+   "day": "화",
+   "time": "15:00~17:50",
+   "building": "16호관",
+   "room": "111",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "16호관",
+     "room": "111"
+    }
+   ]
+  },
+  {
+   "id": "0012542001",
+   "name": "미술관여행",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "김상림",
+   "day": "금",
+   "time": "14:00~16:50",
+   "building": "12호관",
+   "room": "103",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "6",
+      "7",
+      "8"
+     ],
+     "time": "14:00~16:50",
+     "building": "12호관",
+     "room": "103"
+    }
+   ]
+  },
+  {
+   "id": "0012582001",
+   "name": "WEIGHT TRAINING",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "안효성",
+   "day": "수",
+   "time": "12:00~13:50",
+   "building": "20호관",
+   "room": "208",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "4",
+      "5"
+     ],
+     "time": "12:00~13:50",
+     "building": "20호관",
+     "room": "208"
+    }
+   ]
+  },
+  {
+   "id": "0012582002",
+   "name": "WEIGHT TRAINING",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "안효성",
+   "day": "목",
+   "time": "12:00~13:50",
+   "building": "20호관",
+   "room": "208",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "4",
+      "5"
+     ],
+     "time": "12:00~13:50",
+     "building": "20호관",
+     "room": "208"
+    }
+   ]
+  },
+  {
+   "id": "O810574001",
+   "name": "마음을읽어주는미술치료",
+   "category": "심화교양·예술체육",
+   "description": null,
+   "professor": "OCU",
+   "day": null,
+   "time": null,
+   "building": null,
+   "room": null,
+   "credits": 3,
+   "online": false,
+   "schedule": []
+  },
+  {
+   "id": "0002670001",
+   "name": "중국어2",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "안성재",
+   "day": "금",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "404",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "404"
+    }
+   ]
+  },
+  {
+   "id": "0003594001",
+   "name": "ENGLISH PRESENTATION",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "안수진",
+   "day": "화",
+   "time": "18:00~19:45",
+   "building": "12호관",
+   "room": "406",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "야1",
+      "야2"
+     ],
+     "time": "18:00~19:45",
+     "building": "12호관",
+     "room": "406"
+    }
+   ]
+  },
+  {
+   "id": "0006406001",
+   "name": "영화로만나는중국어",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "안성재",
+   "day": "금",
+   "time": "12:00~14:50",
+   "building": "12호관",
+   "room": "404",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "4",
+      "5",
+      "6"
+     ],
+     "time": "12:00~14:50",
+     "building": "12호관",
+     "room": "404"
+    }
+   ]
+  },
+  {
+   "id": "0008620001",
+   "name": "한국어발표와토론1",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "김정현",
+   "day": "목",
+   "time": "09:00~11:50",
+   "building": "15호관",
+   "room": "211",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "15호관",
+     "room": "211"
+    }
+   ]
+  },
+  {
+   "id": "0008621001",
+   "name": "한국어발표와토론2",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "안희제",
+   "day": "목",
+   "time": "09:00~11:50",
+   "building": "15호관",
+   "room": "212",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "15호관",
+     "room": "212"
+    }
+   ]
+  },
+  {
+   "id": "0008622001",
+   "name": "한국어글쓰기1",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "김정현",
+   "day": "화",
+   "time": "09:00~11:50",
+   "building": "15호관",
+   "room": "211",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "15호관",
+     "room": "211"
+    }
+   ]
+  },
+  {
+   "id": "0008623001",
+   "name": "한국어글쓰기2",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "안희제",
+   "day": "화",
+   "time": "09:00~11:50",
+   "building": "15호관",
+   "room": "212",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "1",
+      "2",
+      "3"
+     ],
+     "time": "09:00~11:50",
+     "building": "15호관",
+     "room": "212"
+    }
+   ]
+  },
+  {
+   "id": "0008624001",
+   "name": "한국어문화읽기1",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "김정현",
+   "day": "목",
+   "time": "15:00~17:50",
+   "building": "15호관",
+   "room": "211",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "15호관",
+     "room": "211"
+    }
+   ]
+  },
+  {
+   "id": "0008625001",
+   "name": "한국어문화읽기2",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "안희제",
+   "day": "목",
+   "time": "15:00~17:50",
+   "building": "15호관",
+   "room": "212",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "15호관",
+     "room": "212"
+    }
+   ]
+  },
+  {
+   "id": "0009081001",
+   "name": "Introductory College Writing",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "피터",
+   "day": "목",
+   "time": "10:00~12:50",
+   "building": "12호관",
+   "room": "107",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "2",
+      "3",
+      "4"
+     ],
+     "time": "10:00~12:50",
+     "building": "12호관",
+     "room": "107"
+    }
+   ]
+  },
+  {
+   "id": "0009340001",
+   "name": "실전토익700",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "차현지",
+   "day": "화",
+   "time": "11:00~12:50",
+   "building": "12호관",
+   "room": "505",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "3",
+      "4"
+     ],
+     "time": "11:00~12:50",
+     "building": "12호관",
+     "room": "505"
+    }
+   ]
+  },
+  {
+   "id": "0010143001",
+   "name": "대중영어말하기",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "김정옥",
+   "day": "목",
+   "time": "10:00~11:50",
+   "building": "12호관",
+   "room": "203",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "2",
+      "3"
+     ],
+     "time": "10:00~11:50",
+     "building": "12호관",
+     "room": "203"
+    }
+   ]
+  },
+  {
+   "id": "0011242001",
+   "name": "한국생활과학업",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "정미진",
+   "day": "월",
+   "time": "15:00~16:50",
+   "building": "15호관",
+   "room": "212",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "7",
+      "8"
+     ],
+     "time": "15:00~16:50",
+     "building": "15호관",
+     "room": "212"
+    }
+   ]
+  },
+  {
+   "id": "0011242002",
+   "name": "한국생활과학업",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "김정현",
+   "day": "월",
+   "time": "15:00~16:50",
+   "building": "15호관",
+   "room": "211",
+   "credits": 1,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "7",
+      "8"
+     ],
+     "time": "15:00~16:50",
+     "building": "15호관",
+     "room": "211"
+    }
+   ]
+  },
+  {
+   "id": "0011637001",
+   "name": "기초러시아어",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "강성희",
+   "day": "금",
+   "time": "10:00~12:50",
+   "building": "12호관",
+   "room": "501",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "2",
+      "3",
+      "4"
+     ],
+     "time": "10:00~12:50",
+     "building": "12호관",
+     "room": "501"
+    }
+   ]
+  },
+  {
+   "id": "0011637002",
+   "name": "기초러시아어",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "강성희",
+   "day": "금",
+   "time": "14:00~16:50",
+   "building": "12호관",
+   "room": "501",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "6",
+      "7",
+      "8"
+     ],
+     "time": "14:00~16:50",
+     "building": "12호관",
+     "room": "501"
+    }
+   ]
+  },
+  {
+   "id": "0011639001",
+   "name": "문화로배우는생활프랑스어",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "이영석",
+   "day": "수",
+   "time": "13:30~16:15",
+   "building": "12호관",
+   "room": "506",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "5B-6",
+      "7-8A"
+     ],
+     "time": "13:30~16:15",
+     "building": "12호관",
+     "room": "506"
+    }
+   ]
+  },
+  {
+   "id": "0011639002",
+   "name": "문화로배우는생활프랑스어",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "이영석",
+   "day": "월",
+   "time": "13:30~16:15",
+   "building": "12호관",
+   "room": "506",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "월",
+     "periods": [
+      "5B-6",
+      "7-8A"
+     ],
+     "time": "13:30~16:15",
+     "building": "12호관",
+     "room": "506"
+    }
+   ]
+  },
+  {
+   "id": "0011844001",
+   "name": "영화로배우는생활영어",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "김연정",
+   "day": "수",
+   "time": "12:00~13:50",
+   "building": "12호관",
+   "room": "305",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "4",
+      "5"
+     ],
+     "time": "12:00~13:50",
+     "building": "12호관",
+     "room": "305"
+    }
+   ]
+  },
+  {
+   "id": "0011850001",
+   "name": "토익리딩집중",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "이은재",
+   "day": "수",
+   "time": "12:00~13:50",
+   "building": "12호관",
+   "room": "507",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "4",
+      "5"
+     ],
+     "time": "12:00~13:50",
+     "building": "12호관",
+     "room": "507"
+    }
+   ]
+  },
+  {
+   "id": "0012529001",
+   "name": "스크린속비즈니스영어",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "안수진",
+   "day": "수",
+   "time": "14:00~15:50",
+   "building": "12호관",
+   "room": "405",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "6",
+      "7"
+     ],
+     "time": "14:00~15:50",
+     "building": "12호관",
+     "room": "405"
+    }
+   ]
+  },
+  {
+   "id": "0012530001",
+   "name": "활동영어",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "김정옥",
+   "day": "수",
+   "time": "16:00~17:50",
+   "building": "12호관",
+   "room": "403",
+   "credits": 2,
+   "online": false,
+   "schedule": [
+    {
+     "day": "수",
+     "periods": [
+      "8",
+      "9"
+     ],
+     "time": "16:00~17:50",
+     "building": "12호관",
+     "room": "403"
+    }
+   ]
+  },
+  {
+   "id": "0012537001",
+   "name": "스크린속의한국",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "장영은",
+   "day": "금",
+   "time": "09:00~11:45",
+   "building": "15호관",
+   "room": "211",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "금",
+     "periods": [
+      "1-2A",
+      "2B-3"
+     ],
+     "time": "09:00~11:45",
+     "building": "15호관",
+     "room": "211"
+    }
+   ]
+  },
+  {
+   "id": "0012538001",
+   "name": "한류의이해",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "조지민",
+   "day": "목",
+   "time": "14:00~16:50",
+   "building": "12호관",
+   "room": "406",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "목",
+     "periods": [
+      "6",
+      "7",
+      "8"
+     ],
+     "time": "14:00~16:50",
+     "building": "12호관",
+     "room": "406"
+    }
+   ]
+  },
+  {
+   "id": "0012545001",
+   "name": "중급아랍어",
+   "category": "심화교양·외국어",
+   "description": null,
+   "professor": "김효정",
+   "day": "화",
+   "time": "15:00~17:50",
+   "building": "12호관",
+   "room": "404",
+   "credits": 3,
+   "online": false,
+   "schedule": [
+    {
+     "day": "화",
+     "periods": [
+      "7",
+      "8",
+      "9"
+     ],
+     "time": "15:00~17:50",
+     "building": "12호관",
+     "room": "404"
+    }
+   ]
+  }
+ ]
+}
