@@ -7,7 +7,7 @@ import { api, loadSession } from "@/lib/api-client";
 import type { NotificationsResponse } from "@/lib/types";
 import { usePoll } from "@/lib/use-poll";
 import { BellIcon, HeartIcon, IdCardIcon, SendIcon } from "./icons";
-import { Logo, LogoMark } from "./Logo";
+import { LogoMark } from "./Logo";
 import { MiniMessenger } from "./MiniMessenger";
 import { NotificationsPanel } from "./NotificationsPanel";
 
@@ -85,42 +85,45 @@ export function AppShell({ children, wide = false, bare = false }: { children: R
 
   return (
     <div className="flex min-h-dvh w-full">
-      {/* PC 왼쪽 아이콘 레일 */}
-      <aside className="sticky top-0 z-30 hidden h-dvh w-24 shrink-0 flex-col items-center border-r border-line bg-white py-6 md:flex">
-        <Link href="/" className="self-start pl-4" title="교양필수 홈">
-          <Logo size="sm" />
-        </Link>
-        <nav className="flex flex-1 flex-col items-center justify-center gap-3">
-          {TABS.map(({ href, label, Icon }) => {
-            const active = path.startsWith(href);
-            return (
-              <Link
-                key={href}
-                href={href}
-                aria-label={label}
-                className={`group relative flex h-12 w-12 items-center justify-center rounded-2xl transition ${
-                  active ? "bg-surface text-primary-strong" : "text-ink hover:bg-surface/70 hover:text-primary-strong"
-                }`}
-              >
-                <span className="relative transition group-hover:scale-110">
-                  <Icon active={active} className="h-[26px] w-[26px]" />
-                  {href === "/notifications" && <BadgeDot n={badge} className="-right-2.5 -top-2" />}
-                </span>
-                {/* 마우스를 올리면 메뉴 이름 */}
-                <span className="pointer-events-none absolute left-full top-1/2 z-50 ml-3 -translate-y-1/2 -translate-x-1 whitespace-nowrap rounded-lg bg-ink px-2.5 py-1.5 text-xs font-semibold text-white opacity-0 shadow-lg transition group-hover:translate-x-0 group-hover:opacity-100">
-                  {label}
-                </span>
-              </Link>
-            );
-          })}
-        </nav>
-        <span className="group relative cursor-default text-[10px] text-ink-soft">
-          26-2
-          <span className="pointer-events-none absolute bottom-0 left-full ml-3 whitespace-nowrap rounded-lg bg-ink px-2.5 py-1.5 text-xs text-white opacity-0 transition group-hover:opacity-100">
-            2026학년도 2학기 · 실제 개설 교양 319개 분반 기반
-          </span>
-        </span>
-      </aside>
+      {/* PC 왼쪽 메뉴: 평소엔 로고와 아이콘만 보이게 접혀 있고, 마우스를 올리면 펼쳐진다 */}
+      <div className="sticky top-0 z-30 hidden h-dvh w-[84px] shrink-0 md:block">
+        <aside className="group/nav absolute inset-y-0 left-0 flex w-[84px] flex-col overflow-hidden border-r border-line bg-white px-3 py-6 transition-[width,box-shadow] duration-200 ease-out hover:w-64 hover:shadow-[8px_0_30px_rgba(0,0,0,0.08)] focus-within:w-64">
+          <Link href="/" className="flex h-14 shrink-0 items-center px-1.5" title="교양필수 홈">
+            {/* 접혔을 때: 로고만 / 펼쳤을 때: 로고 + 교양필수 */}
+            <span className="flex flex-col items-start">
+              <LogoMark className="h-9 w-auto" />
+              <span className="mt-1 whitespace-nowrap text-lg font-extrabold leading-none tracking-tight opacity-0 transition-opacity duration-150 group-hover/nav:opacity-100 group-focus-within/nav:opacity-100">
+                교양<span className="text-primary">필수</span>
+              </span>
+            </span>
+          </Link>
+          <nav className="flex flex-1 flex-col justify-center gap-1.5">
+            {TABS.map(({ href, label, Icon }) => {
+              const active = path.startsWith(href);
+              return (
+                <Link
+                  key={href}
+                  href={href}
+                  aria-label={label}
+                  className={`flex h-12 items-center gap-4 whitespace-nowrap rounded-2xl px-[17px] transition ${
+                    active ? "bg-surface font-bold text-primary-strong" : "text-ink hover:bg-surface/70"
+                  }`}
+                >
+                  <span className="relative shrink-0">
+                    <Icon active={active} className="h-[26px] w-[26px]" />
+                    {href === "/notifications" && <BadgeDot n={badge} className="-right-2.5 -top-2" />}
+                  </span>
+                  <span className="text-[15px] opacity-0 transition-opacity duration-150 group-hover/nav:opacity-100 group-focus-within/nav:opacity-100">{label}</span>
+                </Link>
+              );
+            })}
+          </nav>
+          <p className="whitespace-nowrap px-1.5 text-[11px] leading-relaxed text-ink-soft">
+            <span className="group-hover/nav:hidden">26-2</span>
+            <span className="hidden group-hover/nav:inline">2026학년도 2학기 · 실제 개설 교양 319개 분반 기반</span>
+          </p>
+        </aside>
+      </div>
 
       {/* 본문 */}
       <div className="flex min-w-0 flex-1 flex-col bg-white md:bg-[#fffafc]">
