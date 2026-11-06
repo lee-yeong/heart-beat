@@ -25,7 +25,7 @@ export default function RoomsPage() {
         <div className="mt-6 rounded-[22px] border border-line bg-white px-6 py-14 text-center">
           <p className="text-4xl">💬</p>
           <p className="mt-3 font-semibold">아직 열린 강의실이 없어요.</p>
-          <Link href="/recommendations" className="mt-4 inline-block rounded-full bg-primary px-5 py-2.5 text-sm font-bold text-white">
+          <Link href="/recommendations" className="mt-4 inline-block rounded-xl bg-primary px-5 py-2.5 text-sm font-bold text-white">
             AI 추천 수강 목록 보기
           </Link>
         </div>

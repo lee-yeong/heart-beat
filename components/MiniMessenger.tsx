@@ -28,7 +28,7 @@ export function MiniMessenger({ open, roomId, onOpen, onClose, onSelect }: {
       <button
         type="button"
         onClick={onOpen}
-        className="fixed bottom-6 right-6 z-40 hidden items-center gap-2.5 rounded-full border border-line bg-white py-3 pl-4 pr-5 font-bold shadow-[0_10px_30px_rgba(0,0,0,0.12)] transition hover:shadow-[0_10px_30px_rgba(255,107,154,0.3)] md:flex"
+        className="fixed bottom-6 right-6 z-40 hidden items-center gap-2.5 rounded-2xl border border-line bg-white py-3 pl-4 pr-5 font-bold shadow-[0_10px_30px_rgba(0,0,0,0.12)] transition hover:shadow-[0_10px_30px_rgba(255,107,154,0.3)] md:flex"
       >
         <span className="relative">
           <SendIcon className="h-6 w-6" />

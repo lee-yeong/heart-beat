@@ -185,7 +185,7 @@ export default function NotificationsPage() {
                   <span className="ml-2 text-xs text-ink-soft">{timeAgo(r.responded_at ?? r.created_at)}</span>
                 </p>
                 {r.status === "accepted" && r.room_id && (
-                  <Link href={`/rooms/${r.room_id}`} className="shrink-0 rounded-full bg-primary px-3 py-1.5 text-xs font-bold text-white">
+                  <Link href={`/rooms/${r.room_id}`} className="shrink-0 rounded-xl bg-primary px-3 py-1.5 text-xs font-bold text-white">
                     강의실
                   </Link>
                 )}

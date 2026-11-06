@@ -140,10 +140,13 @@ export function NotificationsPanel({ onOpenRoom }: { onOpenRoom: (roomId: string
   items.sort((a, b) => Date.parse(b.at) - Date.parse(a.at));
 
   return (
-    <aside className="sticky top-0 hidden h-dvh w-[280px] shrink-0 overflow-y-auto pb-10 pt-10 lg:block xl:w-[320px]">
-      {/* 내 프로필 */}
+    <aside className="sticky top-0 hidden h-dvh w-[300px] shrink-0 overflow-y-auto border-l border-line pb-10 pl-7 pt-10 lg:block xl:w-[340px] xl:pl-8">
+      {/* 내 프로필: 네모 카드로 강조, 누르면 학생증 메뉴로 */}
       {me && (
-        <div className="flex items-center gap-3">
+        <Link
+          href="/profile"
+          className="group flex items-center gap-3 rounded-2xl border border-primary-soft bg-white p-3.5 shadow-[0_4px_16px_rgba(255,107,154,0.12)] transition hover:border-primary hover:shadow-[0_6px_20px_rgba(255,107,154,0.2)]"
+        >
           <Avatar big />
           <div className="min-w-0 flex-1">
             <p className="truncate text-[15px] font-bold">{me.nickname}</p>
@@ -151,10 +154,8 @@ export function NotificationsPanel({ onOpenRoom }: { onOpenRoom: (roomId: string
               {me.department_name} · {me.year}학년
             </p>
           </div>
-          <Link href="/profile" className="shrink-0 text-xs font-bold text-primary-strong">
-            학생증
-          </Link>
-        </div>
+          <span className="shrink-0 rounded-xl bg-primary px-3 py-1.5 text-xs font-bold text-white transition group-hover:bg-primary-strong">내 학생증</span>
+        </Link>
       )}
 
       {notif?.rematch?.length ? (

@@ -111,10 +111,10 @@ export default function RecommendationsPage() {
         </div>
         {data?.generated && !loading && (
           <div className="flex gap-2">
-            <button type="button" onClick={() => setConsulting(true)} className="rounded-full bg-primary px-4 py-2 text-sm font-bold text-white shadow-sm hover:bg-primary-strong">
+            <button type="button" onClick={() => setConsulting(true)} className="rounded-xl bg-primary px-4 py-2.5 text-sm font-bold text-white shadow-sm hover:bg-primary-strong">
               ✨ AI 조교와 상담하기
             </button>
-            <button type="button" onClick={() => post({ refresh: true })} className="rounded-full border border-primary-soft px-4 py-2 text-sm font-medium text-primary-strong hover:bg-surface">
+            <button type="button" onClick={() => post({ refresh: true })} className="rounded-xl border border-primary-soft bg-white px-4 py-2.5 text-sm font-medium text-primary-strong hover:bg-surface">
               ↻ 다시 추천
             </button>
           </div>

@@ -339,7 +339,7 @@ export function ChatView({ roomId: id, compact = false, onBack }: { roomId: stri
                     type="button"
                     onClick={recommendTopics}
                     disabled={topicsLoading}
-                    className="rounded-full border border-primary-soft px-3 py-1.5 text-xs font-semibold text-primary-strong hover:bg-surface disabled:opacity-60"
+                    className="rounded-xl border border-primary-soft px-3 py-1.5 text-xs font-semibold text-primary-strong hover:bg-surface disabled:opacity-60"
                   >
                     {topicsLoading ? "AI 조교가 생각 중…" : "✨ 대화 주제 추천"}
                   </button>
