@@ -37,12 +37,12 @@ async function filterCandidates(me: ProfileRow, exclude: Set<string> = new Set()
 }
 
 /** 3단계 서버 검증 */
-function validateMatch(me: ProfileRow, candidates: ProfileRow[], recs: MatchAnalysis[], count: number, requireReal: boolean): string | null {
+function validateMatch(me: ProfileRow, candidates: ProfileRow[], recs: MatchAnalysis[], count: number, minReal: number): string | null {
   const byId = new Map(candidates.map((c) => [c.id, c]));
   const want = Math.min(count, candidates.length);
   if (recs.length !== want) return `후보를 정확히 ${want}명 골라야 함 (받은 수 ${recs.length})`;
-  if (requireReal && !recs.some((r) => byId.get(r.candidate_id)?.is_seed === false))
-    return "real_user가 true인 후보를 최소 1명 포함해야 함";
+  const realPicked = recs.filter((r) => byId.get(r.candidate_id)?.is_seed === false).length;
+  if (realPicked < minReal) return `real_user가 true인 후보를 ${minReal}명 포함해야 함 (지금 ${realPicked}명)`;
   const seen = new Set<string>();
   for (const r of recs) {
     const c = byId.get(r.candidate_id);
@@ -63,14 +63,15 @@ function validateMatch(me: ProfileRow, candidates: ProfileRow[], recs: MatchAnal
 
 /** 2단계 AI 분석 + 3단계 검증. 실패하면 fallback. */
 /**
- * 시연 모드 규칙: 후보 중에 실제 가입자(시드가 아닌 사람)가 있으면 추천에 최소 1명을 꼭 넣는다.
- * 시연영상에서 "나와 팀원이 매칭되는 장면"을 보장하기 위한 것으로, DEMO_MODE가 꺼져 있으면 적용하지 않는다.
+ * 시연 모드 규칙: 추천 자리를 실제 가입자(시드가 아닌 사람)로 먼저 채우고, 모자란 자리만 시드로 채운다.
+ * 시연영상에서 팀원끼리 서로 추천되게 하려는 것으로, DEMO_MODE가 꺼져 있으면 0(규칙 없음)을 돌려준다.
  */
-const demoRequiresReal = (candidates: ProfileRow[]) => process.env.DEMO_MODE === "true" && candidates.some((c) => !c.is_seed);
+const demoMinReal = (candidates: ProfileRow[], want: number) =>
+  process.env.DEMO_MODE === "true" ? Math.min(want, candidates.filter((c) => !c.is_seed).length) : 0;
 
-async function runMatch(me: ProfileRow, candidates: ProfileRow[], count = 3, requireReal = false): Promise<{ recs: MatchAnalysis[]; source: AiSource }> {
+async function runMatch(me: ProfileRow, candidates: ProfileRow[], count = 3, minReal = 0): Promise<{ recs: MatchAnalysis[]; source: AiSource }> {
   const want = Math.min(count, candidates.length);
-  const aiCandidates = candidates.map((c) => (requireReal ? { ...toAiProfile(c), real_user: !c.is_seed } : toAiProfile(c)));
+  const aiCandidates = candidates.map((c) => (minReal > 0 ? { ...toAiProfile(c), real_user: !c.is_seed } : toAiProfile(c)));
   const user = [
     "기준 학생(me)과 후보 목록(candidates)입니다.",
     wrapProfile("me", toAiProfile(me)),
@@ -79,7 +80,9 @@ async function runMatch(me: ProfileRow, candidates: ProfileRow[], count = 3, req
       : "",
     wrapProfile("candidates", aiCandidates),
     `후보 중 정확히 ${want}명을 골라주세요.`,
-    requireReal ? "real_user가 true인 후보는 실제로 가입한 학생이에요. 그중 가장 잘 맞는 학생을 최소 1명 반드시 포함하고, 근거는 다른 후보와 똑같이 실제 프로필로만 쓰세요." : "",
+    minReal > 0
+      ? `real_user가 true인 후보는 실제로 가입한 학생이에요. 그중 ${minReal}명을 반드시 포함하고(잘 맞는 순서로), 근거는 다른 후보와 똑같이 실제 프로필로만 쓰세요.`
+      : "",
   ].join("\n");
   const result = await generate({
     name: "match",
@@ -87,17 +90,16 @@ async function runMatch(me: ProfileRow, candidates: ProfileRow[], count = 3, req
     user,
     schema: MatchSchema,
     maxTokens: 8000,
-    validate: (v) => validateMatch(me, candidates, v.recommendations, count, requireReal),
+    validate: (v) => validateMatch(me, candidates, v.recommendations, count, minReal),
   });
   if (result) return { recs: result.recommendations, source: "ai" };
-  let recs = fallbackMatch(me, candidates).slice(0, want);
-  if (requireReal && !recs.some((r) => candidates.find((c) => c.id === r.candidate_id)?.is_seed === false)) {
-    // 기본 추천에서도 실제 가입자 1명을 마지막 자리에 넣는다
-    const real = candidates.filter((c) => !c.is_seed);
-    const pick = fallbackMatch(me, real)[0];
-    if (pick) recs = [...recs.slice(0, Math.max(0, want - 1)), pick];
+  if (minReal > 0) {
+    // 기본 추천에서도 실제 가입자를 먼저, 남는 자리는 시드로
+    const realRecs = fallbackMatch(me, candidates.filter((c) => !c.is_seed)).slice(0, minReal);
+    const seedRecs = fallbackMatch(me, candidates.filter((c) => c.is_seed)).slice(0, want - realRecs.length);
+    return { recs: [...realRecs, ...seedRecs], source: "fallback" };
   }
-  return { recs, source: "fallback" };
+  return { recs: fallbackMatch(me, candidates).slice(0, want), source: "fallback" };
 }
 
 /**
@@ -160,7 +162,7 @@ export async function createRecommendations(me: ProfileRow, { refresh = false } 
   const candidates = await filterCandidates(me);
   if (!candidates.length) return { ...(await getRecommendations(me)), generated: true, items: [] };
 
-  const { recs, source } = await runMatch(me, candidates, 3, demoRequiresReal(candidates));
+  const { recs, source } = await runMatch(me, candidates, 3, demoMinReal(candidates, 3));
   const rows = recs.map((r, i) => ({ user_id: me.id, candidate_id: r.candidate_id, analysis: r, rank: i + 1, source }));
   const { error } = await db().from("recommendations").upsert(rows, { onConflict: "user_id,candidate_id", ignoreDuplicates: true });
   if (error) throw error;
@@ -181,9 +183,7 @@ export async function refillRecommendations(me: ProfileRow): Promise<Recommendat
   const candidates = await filterCandidates(me, new Set(past.map((p) => p.candidate_id)));
   if (!candidates.length) return { ...current, added: 0 };
 
-  // 빈자리 채우기: 지금 보이는 카드에 실제 가입자가 없을 때만 시연 규칙 적용
-  const hasReal = current.items.some((i) => !i.candidate.is_seed);
-  const { recs, source } = await runMatch(me, candidates, missing, !hasReal && demoRequiresReal(candidates));
+  const { recs, source } = await runMatch(me, candidates, missing, demoMinReal(candidates, missing));
   const startRank = Math.max(0, ...past.map((p) => p.rank)) + 1;
   const rows = recs.map((r, i) => ({ user_id: me.id, candidate_id: r.candidate_id, analysis: r, rank: startRank + i, source }));
   const ins = await db().from("recommendations").upsert(rows, { onConflict: "user_id,candidate_id", ignoreDuplicates: true });
