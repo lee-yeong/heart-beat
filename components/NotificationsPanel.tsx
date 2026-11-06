@@ -140,7 +140,7 @@ export function NotificationsPanel({ onOpenRoom }: { onOpenRoom: (roomId: string
   items.sort((a, b) => Date.parse(b.at) - Date.parse(a.at));
 
   return (
-    <aside className="sticky top-0 hidden h-dvh w-[320px] shrink-0 overflow-y-auto pb-10 pt-10 xl:block">
+    <aside className="sticky top-0 hidden h-dvh w-[280px] shrink-0 overflow-y-auto pb-10 pt-10 lg:block xl:w-[320px]">
       {/* 내 프로필 */}
       {me && (
         <div className="flex items-center gap-3">

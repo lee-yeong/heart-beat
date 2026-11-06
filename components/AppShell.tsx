@@ -32,12 +32,12 @@ function useBadge(enabled: boolean) {
   return badge;
 }
 
-/** 화면 너비 기준 (md: 768px, xl: 1280px) */
+/** 화면 너비 기준 (md: 768px, xl: 활동 열을 띄울 너비 1024px) */
 function useWidth() {
   const [w, setW] = useState({ md: false, xl: false });
   useEffect(() => {
     const md = window.matchMedia("(min-width: 768px)");
-    const xl = window.matchMedia("(min-width: 1280px)");
+    const xl = window.matchMedia("(min-width: 1024px)");
     const update = () => setW({ md: md.matches, xl: xl.matches });
     update();
     md.addEventListener("change", update);
@@ -80,7 +80,7 @@ export function AppShell({ children, bare = false }: { children: ReactNode; wide
   };
 
   const inRooms = path.startsWith("/rooms");
-  const showPanel = hasSession && xl && !bare && !path.startsWith("/notifications");
+  const showPanel = hasSession && xl && !bare;
   const showMessenger = hasSession && md && !inRooms;
 
   return (
@@ -141,7 +141,7 @@ export function AppShell({ children, bare = false }: { children: ReactNode; wide
               </Link>
             </header>
             {/* PC: 가운데 좁은 피드 + 바로 옆 활동 열 (인스타그램 PC처럼 양쪽에 여백) */}
-            <div className="flex flex-1 justify-center gap-14 px-5 md:px-8">
+            <div className="flex flex-1 justify-center gap-8 px-5 md:px-8 xl:gap-14">
               <main className="w-full min-w-0 max-w-[640px] flex-1 pb-24 pt-4 md:pb-28 md:pt-10">{children}</main>
               {showPanel && <NotificationsPanel onOpenRoom={openRoom} />}
             </div>
