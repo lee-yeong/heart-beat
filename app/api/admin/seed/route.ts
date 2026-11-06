@@ -7,7 +7,7 @@ import { db } from "@/lib/server/db";
 import { handler, HttpError } from "@/lib/server/http";
 
 export const runtime = "nodejs";
-export const maxDuration = 120;
+export const maxDuration = 60; // Vercel 무료(Hobby) 요금제 한도
 
 /**
  * 시연용 시드 프로필 15개 생성. 이미 있는 닉네임은 건너뛴다.
