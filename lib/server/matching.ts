@@ -94,7 +94,7 @@ export async function getRecommendations(me: ProfileRow): Promise<Recommendation
       .select("rank, analysis, source, created_at, candidate:profiles!recommendations_candidate_id_fkey(*)")
       .eq("user_id", me.id)
       .order("rank"),
-    db().from("requests").select("id, sender_id, receiver_id, status, rooms(id)").or(`sender_id.eq.${me.id},receiver_id.eq.${me.id}`),
+    db().from("requests").select("id, sender_id, receiver_id, status, rooms(id, ended_at)").or(`sender_id.eq.${me.id},receiver_id.eq.${me.id}`),
     db().from("blocks").select("blocker_id, blocked_id").or(`blocker_id.eq.${me.id},blocked_id.eq.${me.id}`),
   ]);
   if (recsRes.error) throw recsRes.error;
@@ -113,6 +113,9 @@ export async function getRecommendations(me: ProfileRow): Promise<Recommendation
     if (!c || blocked.has(c.id)) continue;
     const rel = reqsRes.data.find((q) => q.sender_id === c.id || q.receiver_id === c.id);
     if (rel && (rel.status === "rejected" || rel.sender_id === c.id)) continue;
+    // 수강 철회로 끝난 상대는 추천 목록에서 숨긴다
+    const relRoom = rel ? ([rel.rooms].flat()[0] as { id: string; ended_at: string | null } | undefined) : undefined;
+    if (relRoom?.ended_at) continue;
     items.push({
       rank: r.rank,
       candidate: toPublic(c),
