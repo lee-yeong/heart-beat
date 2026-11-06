@@ -74,9 +74,13 @@ export default function Landing() {
             >
               학적 등록하기
             </Link>
-            <p className="mt-3 text-center text-xs text-ink-soft">
-              학교 이메일 인증은 준비 중이에요. 지금은 닉네임으로 시연용 등록을 해요.
-            </p>
+            <Link
+              href="/login"
+              className="mt-3 flex h-12 w-full items-center justify-center rounded-2xl border-2 border-primary-soft font-bold text-primary-strong transition hover:bg-surface"
+            >
+              이미 계정이 있어요 · 로그인
+            </Link>
+            <p className="mt-3 text-center text-xs text-ink-soft">학교 이메일 인증은 준비 중이에요. 지금은 아이디·비밀번호로 가입해요.</p>
           </div>
         </section>
       </div>

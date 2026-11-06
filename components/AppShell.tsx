@@ -6,7 +6,7 @@ import { useEffect, useState, type ReactNode } from "react";
 import { api, loadSession } from "@/lib/api-client";
 import type { NotificationsResponse } from "@/lib/types";
 import { usePoll } from "@/lib/use-poll";
-import { BellIcon, HeartIcon, IdCardIcon, SendIcon } from "./icons";
+import { BellIcon, GearIcon, HeartIcon, IdCardIcon, SendIcon } from "./icons";
 import { LogoMark } from "./Logo";
 import { MiniMessenger } from "./MiniMessenger";
 import { NotificationsPanel } from "./NotificationsPanel";
@@ -16,6 +16,7 @@ export const TABS = [
   { href: "/notifications", label: "알림", short: "알림", Icon: BellIcon },
   { href: "/rooms", label: "강의실", short: "강의실", Icon: SendIcon },
   { href: "/profile", label: "학생증", short: "학생증", Icon: IdCardIcon },
+  { href: "/settings", label: "설정", short: "설정", Icon: GearIcon },
 ];
 
 /** 5초마다 알림 배지 수를 가져온다 */
@@ -156,7 +157,7 @@ export function AppShell({ children, bare = false }: { children: ReactNode; wide
 
       {/* 모바일 하단 탭 */}
       {!bare && (
-        <nav className="fixed inset-x-0 bottom-0 z-10 grid grid-cols-4 border-t border-line bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
+        <nav className="fixed inset-x-0 bottom-0 z-10 grid grid-cols-5 border-t border-line bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
           {TABS.map(({ href, short, Icon }) => {
             const active = path.startsWith(href);
             return (

@@ -19,6 +19,8 @@ export type ProfileRow = {
   notifications_seen_at: string;
   match_preference: string | null;
   rematch_decided_at: string;
+  login_id: string | null;
+  password_hash: string | null;
   is_seed: boolean;
   created_at: string;
 };

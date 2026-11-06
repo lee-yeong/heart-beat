@@ -104,6 +104,11 @@ alter table rooms add column if not exists user_b_continue_at timestamptz;
 alter table profiles add column if not exists match_preference text check (match_preference is null or char_length(match_preference) <= 300);
 alter table profiles add column if not exists rematch_decided_at timestamptz not null default now();
 
+-- M5 추가 컬럼 (supabase/migration_m5.sql과 같음)
+alter table profiles add column if not exists login_id text;
+create unique index if not exists profiles_login_id on profiles(login_id) where login_id is not null;
+alter table profiles add column if not exists password_hash text;
+
 -- RLS: 익명·일반 클라이언트의 직접 접근을 모두 막는다.
 -- 서버(service_role)는 RLS를 우회하므로 모든 권한 검사는 Next.js API에서 한다.
 alter table profiles enable row level security;

@@ -10,15 +10,24 @@ import { useMe } from "@/lib/use-me";
 
 function ProfileContent() {
   const { me, error } = useMe();
-  const isNew = useSearchParams().get("new") === "1";
+  const params = useSearchParams();
+  const isNew = params.get("new") === "1";
+  const updated = params.get("updated") === "1";
 
   if (error) return <p className="py-20 text-center text-ink-soft">{error}</p>;
   if (!me) return <p className="py-20 text-center text-ink-soft">불러오는 중…</p>;
 
   return (
     <>
-      <p className="text-sm font-semibold text-primary">{isNew ? "학생증 발급 완료 ♥" : "내 학생증"}</p>
-      <h1 className="mt-1 text-2xl font-bold md:text-3xl">{me.nickname}님의 학생증</h1>
+      <div className="flex items-end justify-between gap-3">
+        <div>
+          <p className="text-sm font-semibold text-primary">{isNew ? "학생증 발급 완료 ♥" : updated ? "학생증을 수정했어요 ♥" : "내 학생증"}</p>
+          <h1 className="mt-1 text-2xl font-bold md:text-3xl">{me.nickname}님의 학생증</h1>
+        </div>
+        <Link href="/profile/edit" className="shrink-0 rounded-xl border border-primary-soft bg-white px-4 py-2.5 text-sm font-bold text-primary-strong hover:bg-surface">
+          ✏️ 학생증 수정
+        </Link>
+      </div>
 
       <div className="mt-6 grid gap-6">
         <div className="animate-pop-in">

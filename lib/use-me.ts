@@ -6,7 +6,7 @@ import { api, loadSession } from "./api-client";
 import type { PublicProfile } from "./types";
 
 /** 본인 프로필 (+ 본인만 보는 AI 상담 선호) */
-export type Me = PublicProfile & { match_preference: string | null };
+export type Me = PublicProfile & { match_preference: string | null; login_id: string | null; has_password: boolean };
 
 /** 로그인한 본인 프로필. 세션이 없거나 만료되면 학적 등록으로 보낸다. */
 export function useMe() {

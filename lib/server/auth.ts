@@ -16,6 +16,15 @@ export function hashSecret(secret: string) {
 
 export const makeToken = (userId: string, secret: string) => `${userId}.${secret}`;
 
+/** 아이디·비밀번호가 있는 계정의 세션 토큰을 발급한다 (DB의 토큰 해시를 맞춰 둔다). */
+export async function issueLoginToken(p: { id: string; access_token_hash: string; password_hash: string }) {
+  const { loginSecret } = await import("./password");
+  const secret = loginSecret(p.id, p.password_hash);
+  const hash = hashSecret(secret);
+  if (p.access_token_hash !== hash) await db().from("profiles").update({ access_token_hash: hash }).eq("id", p.id);
+  return makeToken(p.id, secret);
+}
+
 export class AuthError extends Error {
   status = 401;
 }
